@@ -1,0 +1,424 @@
+@media (max-width: 376px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  header,
+  main,
+  footer {
+    padding: 0px 24px;
+  }
+  header {
+    background-image: url(../PROJECT/images/home/mobile/image-header.jpg);
+    width: 375px;
+    height: 600px;
+  }
+  header .nav-bar {
+    position: absolute;
+    width: 327px;
+    height: 25px;
+    top: 32px;
+    left: 24px;
+  }
+  header .nav-bar .audiophile-logo-container {
+    position: absolute;
+    width: 143px;
+    height: 25px;
+    left: 92px;
+  }
+  header .nav-bar .navigation {
+    display: none;
+  }
+  header .nav-bar #hamburgerMenu {
+    width: 16px;
+    height: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  header .nav-bar #hamburgerMenu .hambrugerLine {
+    width: 16px;
+    height: 3px;
+    background-color: #FFFFFF;
+  }
+  header .nav-bar .cart-container {
+    position: absolute;
+    left: 304px;
+    top: 0px;
+  }
+  header .line-navigation {
+    position: absolute;
+    width: 375px;
+    height: 1px;
+    left: 0px;
+    top: 89px;
+  }
+  header .product-container {
+    position: absolute;
+    width: 328px;
+    height: 290px;
+    top: 198px;
+    left: 23px;
+  }
+  header .product-container .new-product {
+    position: absolute;
+    height: 19px;
+    top: 0px;
+    left: 65px;
+  }
+  header .product-container .new-product-title {
+    position: absolute;
+    width: 328px;
+    height: 80px;
+    top: 35px;
+    left: 0px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 1.28571px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  header .product-container .describe-new-product {
+    position: absolute;
+    width: 328px;
+    height: 75px;
+    top: 139px;
+    left: 0px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+  }
+  header .product-container .buttonSeeProduct {
+    position: absolute;
+    top: 242px;
+    left: 84px;
+  }
+  main {
+    width: 376px;
+    height: 3173px;
+  }
+  main .shop-container {
+    position: absolute;
+    top: 40px;
+    flex-direction: column;
+    width: 327px;
+    height: 683px;
+    gap: 16px;
+  }
+  main .shop-container .headphonesShop {
+    width: 327px;
+    height: 217px;
+  }
+  main .shop-container .headphonesShop .box1 {
+    width: 327px;
+    height: 165px;
+    top: 52px;
+  }
+  main .shop-container .headphonesShop .headphonesImg > img {
+    width: 140px;
+    height: 140px;
+    top: 0px;
+    left: 95px;
+  }
+  main .shop-container .headphonesShop h1 {
+    width: 111px;
+    height: 20px;
+    left: 109px;
+    top: 140px;
+  }
+  main .shop-container .headphonesShop .headphonesButton {
+    width: 57px;
+    height: 18px;
+    top: 177px;
+    left: 135px;
+  }
+  main .shop-container .headphonesShop .arrow-icon {
+    top: 181px;
+    left: 188px;
+  }
+  main .shop-container .speakersShop {
+    width: 327px;
+    height: 217px;
+    top: 2px;
+  }
+  main .shop-container .speakersShop .box2 {
+    width: 327px;
+    height: 165px;
+    top: 52px;
+  }
+  main .shop-container .speakersShop .imgSpeakers > img {
+    width: 140px;
+    height: 140px;
+    top: 0px;
+    left: 103px;
+  }
+  main .shop-container .speakersShop h1 {
+    width: 111px;
+    height: 20px;
+    left: 109px;
+    top: 140px;
+  }
+  main .shop-container .speakersShop .speakersButton {
+    width: 57px;
+    height: 18px;
+    top: 177px;
+    left: 135px;
+  }
+  main .shop-container .speakersShop .arrow-icon {
+    top: 181px;
+    left: 188px;
+  }
+  main .shop-container .earphonesShop {
+    width: 327px;
+    height: 217px;
+    top: 2px;
+  }
+  main .shop-container .earphonesShop .box3 {
+    width: 327px;
+    height: 165px;
+    top: 52px;
+  }
+  main .shop-container .earphonesShop .imgEarphones > img {
+    width: 140px;
+    height: 140px;
+    top: 0px;
+    left: 103px;
+  }
+  main .shop-container .earphonesShop h1 {
+    width: 111px;
+    height: 20px;
+    left: 109px;
+    top: 140px;
+  }
+  main .shop-container .earphonesShop .earphonesButton {
+    width: 57px;
+    height: 18px;
+    top: 177px;
+    left: 135px;
+  }
+  main .shop-container .earphonesShop .arrow-icon {
+    top: 181px;
+    left: 188px;
+  }
+  main .circles {
+    width: 558px;
+    height: 558px;
+    top: 722px;
+    left: -24.47%;
+    right: -35.17%;
+    z-index: 1;
+  }
+  main .speaker-1 {
+    width: 327px;
+    height: 600px;
+    top: 843px;
+  }
+  main .speaker-1 .speaker1Img {
+    display: none;
+  }
+  main .speaker-1 .changeImage {
+    position: absolute;
+    width: 172px;
+    height: 207px;
+    top: 55px;
+    left: 77px;
+    background-image: url(../PROJECT/images/home/mobile/image-speaker-zx9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  main .speaker-1 .speaker-1Box {
+    position: absolute;
+    height: 251px;
+    width: 280px;
+    top: 294px;
+    left: 23px;
+  }
+  main .speaker-1 .speaker-1Box h1 {
+    height: 80px;
+    width: 280px;
+    top: 0px;
+    left: 0px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 1.28571px;
+    text-align: center;
+  }
+  main .speaker-1 .speaker-1Box p {
+    height: 75px;
+    width: 280px;
+    top: 103px;
+    left: 0px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+  }
+  main .speaker-1 .speaker-1Box button {
+    top: 203px;
+    left: 61px;
+  }
+  main .mask {
+    display: none;
+  }
+  main .speaker-2 {
+    position: absolute;
+    width: 327px;
+    height: 320px;
+    top: 1467px;
+    border-radius: 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../PROJECT/images/home/mobile/image-speaker-zx7.jpg);
+  }
+  main .speaker-2Box {
+    width: 204px;
+    height: 118px;
+    top: 101px;
+    left: 24px;
+  }
+  main .earphonesFlex {
+    top: 1811px;
+    width: 327px;
+    height: 424px;
+    gap: 24px;
+    flex-direction: column;
+  }
+  main .earphonesFlex .earphonesImage {
+    width: 327px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../PROJECT/images/home/mobile/image-earphones-yx1.jpg);
+  }
+  main .earphonesFlex .earphonesSeeProduct {
+    width: 327px;
+    height: 200px;
+  }
+  main .earphonesFlex .earphonesSeeProduct .earphonesBox {
+    width: 247px;
+    height: 118px;
+    left: 24px;
+    top: 41px;
+  }
+  main .bestAudioImage {
+    display: none;
+  }
+  main .mobileBestAudio {
+    position: absolute;
+    width: 327px;
+    height: 300px;
+    border-radius: 8px;
+    top: 2355px;
+    background-image: url(../PROJECT/images/shared/mobile/image-best-gear.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  main .bestAudioText {
+    width: 327px;
+    height: 358px;
+    top: 2695px;
+  }
+  main .bestAudioText h1 {
+    width: 327px;
+    height: 76px;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  main .bestAudioText p {
+    width: 327px;
+    height: 250px;
+    top: 108px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+  }
+  footer {
+    width: 375px;
+    height: 654px;
+  }
+  .line {
+    bottom: 650px;
+    left: 137px;
+  }
+  .audiophileFooterBox {
+    height: 221px;
+    width: 143px;
+    left: 116px;
+    top: 52px;
+  }
+  .audiophileFooterBox .logo {
+    width: 143px;
+    height: 25px;
+    top: 0px;
+    left: 0px;
+  }
+  .audiophileFooterBox ul {
+    position: absolute;
+    flex-direction: column;
+    width: 108px;
+    height: 148px;
+    top: 73px;
+    left: 15px;
+    text-align: center;
+  }
+  .textFooter {
+    width: 327px;
+    height: 150px;
+    top: 321px;
+    left: 24px;
+  }
+  .textFooter p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+  .copyright {
+    width: 258px;
+    height: 25px;
+    top: 519px;
+    left: 58px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+  .facebookLogo {
+    top: 592px;
+    left: 136px;
+  }
+  .twiterLogo {
+    top: 592px;
+    left: 176px;
+  }
+  .instagramLogo {
+    top: 592px;
+    left: 216px;
+  }
+}/*# sourceMappingURL=mobile-home.css.map */

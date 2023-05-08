@@ -1,0 +1,32 @@
+@import 'colors';
+@import 'mixinsButtons';
+@import 'mixinsTypography';
+@import 'mixins';
+
+
+@media (max-width: 376px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    header,
+    main,
+    footer {
+        padding: 0px 24px;
+    }
+
+    header {
+        width: 375px;
+        height: 97px;
+
+        .logo{
+            position: absolute;
+            left: 0px;
+            top: 5px;
+            width: 180px;
+            height: 30px;
+        }
+    }
+}

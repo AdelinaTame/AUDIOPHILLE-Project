@@ -1,0 +1,154 @@
+@mixin button1 {
+    button {
+        position: absolute;
+        width: 160px;
+        height:48px;
+
+        background: $first-c;
+        border: 0;
+        color: $sixth-c;
+        stroke: $ninth-c;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $sixth-c;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $fifth-c;
+            color: $sixth-c;
+        }
+    }
+}
+
+@mixin button2 {
+    button {
+        position: absolute;
+
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        border: none;
+
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $seventh-c;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        cursor: pointer;
+        background-color: $third-c;
+
+
+        &:hover {
+            color: $first-c;
+            background-color: $third-c;
+        }
+    }
+}
+
+@mixin button3 {
+    button {
+        position: absolute;
+        width: 160px;
+        height:48px;
+
+        background: $seventh-c;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $sixth-c;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #CCCCCC;
+            border: none;
+        }
+    }
+}
+
+@mixin button4 {
+    button {
+        position: absolute;
+        width: 160px;
+        height: 48px;
+        top: 70px;
+        left: 0px;
+
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        border: 1px solid $seventh-c;
+        color: $seventh-c;
+        cursor: pointer;
+
+        &:hover {
+            background: $seventh-c;
+            color: $sixth-c;
+        }
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////////
+
+@mixin button5 {
+
+    .productsNumber {
+        background-color: $third-c;
+    }
+
+    .minusB {
+        position: absolute;
+        width: 16px;
+        height: 18px;
+        top: 15px;
+        left: 15.5px;
+        border: none;
+        background-color: $third-c;
+        color: $seventh-c;
+
+        &:hover {
+            background-color: $third-c;
+            color: $first-c;
+        }
+    }
+
+    .plusB {
+        position: absolute;
+        width: 16px;
+        height: 18px;
+        top: 15px;
+        left: 88.5px;
+        border: none;
+        background-color: $third-c;
+        color: $seventh-c;
+
+        &:hover {
+            background-color: $third-c;
+            color: $first-c;
+        }
+    }
+
+    p {
+        position: absolute;
+        height: 18px;
+        top: 15px;
+        left: 51.5px;
+    }
+}
+
+///////////////////////////////////////////////////////////////

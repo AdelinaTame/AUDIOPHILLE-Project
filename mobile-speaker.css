@@ -1,0 +1,391 @@
+@media (max-width: 376px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  header,
+  main,
+  footer {
+    padding: 0px 24px;
+  }
+  header {
+    width: 375px;
+    height: 192px;
+  }
+  header .nav-bar {
+    position: absolute;
+    width: 327px;
+    height: 25px;
+    top: 32px;
+    left: 24px;
+  }
+  header .nav-bar .audiophile-logo-container {
+    position: absolute;
+    width: 143px;
+    height: 25px;
+    left: 92px;
+  }
+  header .nav-bar .navigation {
+    display: none;
+  }
+  header .nav-bar #hamburgerMenu {
+    width: 16px;
+    height: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  header .nav-bar #hamburgerMenu .hambrugerLine {
+    width: 16px;
+    height: 3px;
+    background-color: #FFFFFF;
+  }
+  header .nav-bar .cart-container {
+    position: absolute;
+    left: 304px;
+    top: 0px;
+  }
+  header .line-navigation {
+    display: none;
+  }
+  header .speakers-title {
+    width: 207px;
+    height: 38px;
+    top: 122px;
+    left: 84px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  main {
+    width: 375px;
+    height: 3330px;
+  }
+  main .zx9-speakers {
+    width: 327px;
+    height: 724px;
+    top: 64px;
+  }
+  main .zx9-speakers .zx9SpeakersImage {
+    display: none;
+  }
+  main .zx9-speakers .zx9SpeakersImageMobile {
+    width: 327px;
+    height: 352px;
+    position: absolute;
+    top: 0px;
+    border-radius: 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../PROJECT/images/product-zx9-speaker/mobile/image-category-page-preview.jpg);
+  }
+  main .zx9-speakers .zx9SpeakersText {
+    width: 327px;
+    height: 340px;
+    top: 384px;
+    left: 0px;
+  }
+  main .zx9-speakers .zx9SpeakersText .subtitle {
+    height: 19px;
+    top: 0px;
+    left: 64px;
+  }
+  main .zx9-speakers .zx9SpeakersText .zx9-h1 {
+    width: 327px;
+    height: 76px;
+    top: 43px;
+    left: 0px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  main .zx9-speakers .zx9SpeakersText .describe {
+    width: 327px;
+    height: 125px;
+    top: 143px;
+    left: 0px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+  main .zx9-speakers .zx9SpeakersText button {
+    top: 292px;
+    left: 83px;
+  }
+  main .zx7-speakers {
+    width: 327px;
+    height: 681px;
+    top: 908px;
+  }
+  main .zx7-speakers .zx7SpeakersImage {
+    display: none;
+  }
+  main .zx7-speakers .zx7SpeakersImageMobile {
+    width: 327px;
+    height: 352px;
+    position: absolute;
+    top: 0px;
+    border-radius: 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../PROJECT/images/product-zx7-speaker/mobile/image-category-page-preview.jpg);
+  }
+  main .zx7-speakers .zx7SpeakersText {
+    width: 327px;
+    height: 297px;
+    top: 384px;
+    left: 0px;
+  }
+  main .zx7-speakers .zx7SpeakersText .zx7-h1 {
+    width: 327px;
+    height: 76px;
+    top: 0px;
+    left: 0px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  main .zx7-speakers .zx7SpeakersText .describe {
+    width: 327px;
+    height: 125px;
+    top: 100px;
+    left: 0px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+  main .zx7-speakers .zx7SpeakersText button {
+    top: 249px;
+    left: 83px;
+  }
+  main .shop-container {
+    position: absolute;
+    top: 1709px;
+    flex-direction: column;
+    width: 327px;
+    height: 683px;
+    gap: 16px;
+  }
+  main .shop-container .headphonesShop {
+    width: 327px;
+    height: 217px;
+  }
+  main .shop-container .headphonesShop .box1 {
+    width: 327px;
+    height: 165px;
+    top: 52px;
+  }
+  main .shop-container .headphonesShop .headphonesImg > img {
+    width: 140px;
+    height: 140px;
+    top: 0px;
+    left: 95px;
+  }
+  main .shop-container .headphonesShop h1 {
+    width: 111px;
+    height: 20px;
+    left: 109px;
+    top: 140px;
+  }
+  main .shop-container .headphonesShop .headphonesButton {
+    width: 57px;
+    height: 18px;
+    top: 177px;
+    left: 135px;
+  }
+  main .shop-container .headphonesShop .arrow-icon {
+    top: 181px;
+    left: 188px;
+  }
+  main .shop-container .speakersShop {
+    width: 327px;
+    height: 217px;
+    top: 2px;
+  }
+  main .shop-container .speakersShop .box2 {
+    width: 327px;
+    height: 165px;
+    top: 52px;
+  }
+  main .shop-container .speakersShop .imgSpeakers > img {
+    width: 140px;
+    height: 140px;
+    top: 0px;
+    left: 103px;
+  }
+  main .shop-container .speakersShop h1 {
+    width: 111px;
+    height: 20px;
+    left: 109px;
+    top: 140px;
+  }
+  main .shop-container .speakersShop .speakersButton {
+    width: 57px;
+    height: 18px;
+    top: 177px;
+    left: 135px;
+  }
+  main .shop-container .speakersShop .arrow-icon {
+    top: 181px;
+    left: 188px;
+  }
+  main .shop-container .earphonesShop {
+    width: 327px;
+    height: 217px;
+    top: 2px;
+  }
+  main .shop-container .earphonesShop .box3 {
+    width: 327px;
+    height: 165px;
+    top: 52px;
+  }
+  main .shop-container .earphonesShop .imgEarphones > img {
+    width: 140px;
+    height: 140px;
+    top: 0px;
+    left: 103px;
+  }
+  main .shop-container .earphonesShop h1 {
+    width: 111px;
+    height: 20px;
+    left: 109px;
+    top: 140px;
+  }
+  main .shop-container .earphonesShop .earphonesButton {
+    width: 57px;
+    height: 18px;
+    top: 177px;
+    left: 135px;
+  }
+  main .shop-container .earphonesShop .arrow-icon {
+    top: 181px;
+    left: 188px;
+  }
+  main .bestAudio-container {
+    width: 327px;
+    height: 698px;
+    top: 2512px;
+  }
+  main .bestAudio-container .bestAudioImage {
+    display: none;
+  }
+  main .bestAudio-container .mobileBestAudio {
+    position: absolute;
+    width: 327px;
+    height: 300px;
+    border-radius: 8px;
+    top: 0px;
+    background-image: url(../PROJECT/images/shared/mobile/image-best-gear.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  main .bestAudio-container .bestAudioText {
+    width: 327px;
+    height: 358px;
+    top: 340px;
+  }
+  main .bestAudio-container .bestAudioText h1 {
+    width: 327px;
+    height: 76px;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  main .bestAudio-container .bestAudioText p {
+    width: 327px;
+    height: 250px;
+    top: 108px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+  }
+  footer {
+    width: 375px;
+    height: 654px;
+  }
+  .line {
+    bottom: 650px;
+    left: 137px;
+  }
+  .audiophileFooterBox {
+    height: 221px;
+    width: 143px;
+    left: 116px;
+    top: 52px;
+  }
+  .audiophileFooterBox .logo {
+    width: 143px;
+    height: 25px;
+    top: 0px;
+    left: 0px;
+  }
+  .audiophileFooterBox ul {
+    position: absolute;
+    flex-direction: column;
+    width: 108px;
+    height: 148px;
+    top: 73px;
+    left: 15px;
+    text-align: center;
+  }
+  .textFooter {
+    width: 327px;
+    height: 150px;
+    top: 321px;
+    left: 24px;
+  }
+  .textFooter p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+  .copyright {
+    width: 258px;
+    height: 25px;
+    top: 519px;
+    left: 58px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+  .facebookLogo {
+    top: 592px;
+    left: 136px;
+  }
+  .twiterLogo {
+    top: 592px;
+    left: 176px;
+  }
+  .instagramLogo {
+    top: 592px;
+    left: 216px;
+  }
+}/*# sourceMappingURL=mobile-speaker.css.map */

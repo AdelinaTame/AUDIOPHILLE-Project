@@ -1,0 +1,256 @@
+@import 'base';
+@import 'colors';
+@import 'mixinsButtons';
+@import 'mixinsTypography';
+@import 'mixins';
+
+header {
+    position: relative;
+
+    background-image: url(../PROJECT/images/home/desktop/image-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 728px;
+    width: 1440px;
+    margin: auto;
+
+    .hero {
+        height: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    @include forHeader;
+
+    .product-container {
+        position: absolute;
+        width: 398px;
+        height: 346px;
+        left: 165px;
+        top: 225px;
+
+        .new-product {
+            @include typography2;
+        }
+
+        .new-product-title {
+            position: absolute;
+            height: 116px;
+            left: 0%;
+            right: 0.5%;
+            top: calc(50% - 116px/2 - 72px);
+
+            @include typography3;
+        }
+
+        .describe-new-product {
+            position: absolute;
+            top: 183px;
+            right: 49px;
+
+            @include typography4;
+        }
+
+        @include button1;
+
+        button {
+            top: 298px;
+            right: 238px;
+        }
+    }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+main {
+    position: relative;
+    width: 1440px;
+    height: 2856px;
+    margin: auto;
+
+    .middle {
+        height: 100%;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@include shopContainer;
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.circles {
+    position: absolute;
+    width: 944px;
+    height: 944px;
+    right: 480px;
+    top: 536px;
+    z-index: 1;
+}
+
+.mask {
+    position: absolute;
+    width: 1110px;
+    height: 48px;
+    top: 1132px;
+    z-index: 2;
+
+    background-color: white;
+}
+
+/////////////////////////////////////////////////////////
+
+.speaker-1 {
+    position: relative;
+
+    width: 1110px;
+    height: 560px;
+    top: 572px;
+    background: $first-c;
+    border-radius: 8px;
+
+    .speaker1Img {
+        position: absolute;
+
+        width: 410px;
+        height: 493px;
+        left: 117px;
+        top: 86px;
+        z-index: 2;
+    }
+}
+
+.speaker-1Box {
+    position: relative;
+    width: 349px;
+    height: 303px;
+    left: 666px;
+    top: 133px;
+
+    h1 {
+        position: absolute;
+        width: 261px;
+        height: 116px;
+        top: 0px;
+        left: 0px;
+
+        @include typography3;
+    }
+
+    p {
+        position: absolute;
+        width: 349px;
+        height: 75px;
+        top: 140px;
+        left: 0px;
+
+        @include typography4;
+    }
+
+    @include button3;
+
+    button {
+        top: 255px;
+        left: 0px;
+        z-index: 1;
+    }
+}
+
+////////////////////////////////////////////////////////////////////////
+
+.speaker-2 {
+    position: relative;
+    width: 1110px;
+    height: 320px;
+    top: 608px;
+    border-radius: 8px;
+    background-image: url(../PROJECT/images/home/desktop/image-speaker-zx7.jpg);
+    z-index: 1;
+}
+
+.speaker-2Box {
+    position: relative;
+    width: 204px;
+    height: 118px;
+    top: 101px;
+    left: 95px;
+
+    h1 {
+        position: absolute;
+
+        height: 38px;
+        top: 0px;
+        left: 0px;
+
+        @include typography6;
+    }
+
+    @include button4;
+
+    button {
+        top: 70px;
+        left: 0px;
+    }
+}
+
+///////////////////////////////////////////
+
+.earphonesFlex {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+
+    top: 1548px;
+    width: 1110px;
+    height: 320px;
+
+    .earphonesImage {
+        width: 540px;
+        height: 320px;
+        background-image: url(../PROJECT/images/home/desktop/image-earphones-yx1.jpg);
+        border-radius: 8px;
+    }
+
+    .earphonesSeeProduct {
+        position: relative;
+        width: 540px;
+        height: 320px;
+        background: #F1F1F1;
+        border-radius: 8px;
+
+        .earphonesBox {
+            position: absolute;
+            width: 247px;
+            height: 118px;
+            top: 101px;
+            left: 95px;
+
+            h1 {
+                height: 38px;
+
+                @include typography6;
+            }
+
+            @include button4;
+
+            button {
+                top: 70px;
+                left: 0px;
+            }
+        }
+    }
+}
+
+@include bestAudioGear;
+
+/////////////////////////////////////////////////////
+
+@include footerDimensions;
+
+.endOfPage {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+@include forFooter;

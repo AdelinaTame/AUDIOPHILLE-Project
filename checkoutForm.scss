@@ -1,0 +1,818 @@
+@import 'base';
+@import 'colors';
+@import 'mixinsButtons';
+@import 'mixinsTypography';
+@import 'mixins';
+
+@include headerDimensions;
+@include forHeader;
+@include forFooter;
+@include footerDimensions;
+
+header {
+    height: 97px;
+
+    .headerSectionDetails {
+        height: 100%;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+main {
+    position: relative;
+    width: 1440px;
+    height: 1409px;
+    margin: auto;
+    background-color: #F2F2F2;
+
+    .checkoutMainSection {
+        height: 100%;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+.linkBack {
+    position: absolute;
+    width: 57px;
+    height: 25px;
+    top: 79px;
+    left: 165px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+
+    color: $seventh-c;
+}
+
+.linkBack:hover {
+    color: $first-c;
+}
+
+
+.checkoutAndSummaryBox {
+    position: absolute;
+    width: 1110px;
+    height: 1126px;
+    top: 142px;
+
+    .checkoutBox {
+        position: absolute;
+        width: 730px;
+        height: 1126px;
+        padding: 54px 48px 48px 48px;
+        background-color: $sixth-c;
+
+        h1 {
+            position: absolute;
+            width: 360px;
+            height: 36px;
+            @include typography10;
+        }
+
+        .firstP {
+            position: absolute;
+            height: 25px;
+            top: 131px;
+
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 25px;
+            letter-spacing: 0.928571px;
+            text-transform: uppercase;
+            color: $first-c;
+        }
+
+        .nameForm {
+            position: absolute;
+            width: 309px;
+            height: 81px;
+            top: 172px;
+
+            label {
+                position: absolute;
+                width: 33px;
+                height: 16px;
+
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 16px;
+                letter-spacing: -0.214286px;
+
+                color: $seventh-c;
+            }
+
+            input {
+                position: absolute;
+                width: 309px;
+                height: 56px;
+                top: 25px;
+                background: $sixth-c;
+                border: 1px solid $eight-c;
+                border-radius: 8px;
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 19px;
+                letter-spacing: -0.25px;
+
+                padding: 24px;
+                color: $seventh-c;
+                cursor: pointer;
+                caret-color: $first-c;
+                outline: none;
+            }
+
+            input:focus {
+                border: 1px solid #D87D4A;
+            }
+        }
+
+        .emailForm {
+            position: absolute;
+            width: 309px;
+            height: 81px;
+            top: 172px;
+            right: 48px;
+
+            label {
+                position: absolute;
+                width: 80px;
+                height: 16px;
+
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 16px;
+                letter-spacing: -0.214286px;
+
+                color: $seventh-c;
+            }
+
+            input {
+                position: absolute;
+                width: 309px;
+                height: 56px;
+                top: 25px;
+
+                background: $sixth-c;
+                border: 1px solid $eight-c;
+                border-radius: 8px;
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 19px;
+                letter-spacing: -0.25px;
+
+                color: $seventh-c;
+                padding: 24px;
+                caret-color: $first-c;
+                cursor: pointer;
+                outline: none;
+            }
+
+            input:focus {
+                border: 1px solid #D87D4A;
+            }
+        }
+
+        .numberForm {
+            position: absolute;
+            width: 309px;
+            height: 81px;
+            top: 277px;
+
+            label {
+                position: absolute;
+                height: 16px;
+
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 16px;
+                letter-spacing: -0.214286px;
+
+                color: $seventh-c;
+            }
+
+            input {
+                position: absolute;
+                width: 309px;
+                height: 56px;
+                top: 25px;
+                background: $sixth-c;
+                border: 1px solid $eight-c;
+                border-radius: 8px;
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 19px;
+                letter-spacing: -0.25px;
+
+                color: $seventh-c;
+                padding: 24px;
+                caret-color: $first-c;
+                cursor: pointer;
+                outline: none;
+            }
+
+            input:focus {
+                border: 1px solid #D87D4A;
+            }
+        }
+
+        .secondP {
+            position: absolute;
+            height: 25px;
+            top: 411px;
+
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 25px;
+            letter-spacing: 0.928571px;
+            text-transform: uppercase;
+            color: $first-c;
+        }
+
+        .shippingBox {
+            position: absolute;
+            width: 634px;
+            height: 291px;
+            top: 452px;
+
+            .adressForm {
+                position: absolute;
+                width: 634px;
+                height: 81px;
+
+                label {
+                    position: absolute;
+                    height: 16px;
+
+                    font-family: 'Manrope';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 16px;
+                    letter-spacing: -0.214286px;
+
+                    color: $seventh-c;
+                }
+
+                input {
+                    position: absolute;
+                    width: 634px;
+                    height: 56px;
+                    top: 25px;
+                    background: $sixth-c;
+                    border: 1px solid $eight-c;
+                    border-radius: 8px;
+                    font-family: 'Manrope';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 19px;
+                    letter-spacing: -0.25px;
+
+                    color: $seventh-c;
+                    padding: 24px;
+                    caret-color: $first-c;
+                    cursor: pointer;
+                    outline: none;
+                }
+
+                input:focus {
+                    border: 1px solid #D87D4A;
+                }
+            }
+
+            .zipcode {
+                position: absolute;
+                width: 309px;
+                height: 72px;
+                top: 105px;
+
+                label {
+                    position: absolute;
+                    height: 16px;
+
+                    font-family: 'Manrope';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 16px;
+                    letter-spacing: -0.214286px;
+
+                    color: $seventh-c;
+                }
+
+                input {
+                    position: absolute;
+                    width: 309px;
+                    height: 56px;
+                    top: 25px;
+                    background: $sixth-c;
+                    border: 1px solid $eight-c;
+                    border-radius: 8px;
+                    font-family: 'Manrope';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 19px;
+                    letter-spacing: -0.25px;
+
+                    color: $seventh-c;
+                    padding: 24px;
+                    caret-color: $first-c;
+                    cursor: pointer;
+                    outline: none;
+                }
+
+                input:focus {
+                    border: 1px solid #D87D4A;
+                }
+            }
+
+            .city {
+                position: absolute;
+                width: 309px;
+                height: 81px;
+                top: 105px;
+                right: 0px;
+
+                label {
+                    position: absolute;
+                    height: 16px;
+                    width: 80px;
+
+                    font-family: 'Manrope';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 16px;
+                    letter-spacing: -0.214286px;
+
+                    color: $seventh-c;
+                }
+
+                input {
+                    position: absolute;
+                    width: 309px;
+                    height: 56px;
+                    top: 25px;
+
+                    background: $sixth-c;
+                    border: 1px solid $eight-c;
+                    border-radius: 8px;
+                    font-family: 'Manrope';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 19px;
+                    letter-spacing: -0.25px;
+
+                    color: $seventh-c;
+                    padding: 24px;
+                    caret-color: $first-c;
+                    cursor: pointer;
+                    outline: none;
+                }
+
+                input:focus {
+                    border: 1px solid #D87D4A;
+                }
+            }
+
+            .country {
+                position: absolute;
+                width: 309px;
+                height: 18px;
+                top: 210px;
+
+                label {
+                    position: absolute;
+                    height: 16px;
+
+                    font-family: 'Manrope';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 16px;
+                    letter-spacing: -0.214286px;
+
+                    color: $seventh-c;
+                }
+
+                input {
+                    position: absolute;
+                    width: 309px;
+                    height: 56px;
+                    top: 25px;
+                    background: $sixth-c;
+                    border: 1px solid $eight-c;
+                    border-radius: 8px;
+                    font-family: 'Manrope';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 19px;
+                    letter-spacing: -0.25px;
+
+                    color: $seventh-c;
+                    padding: 24px;
+                    caret-color: $first-c;
+                    cursor: pointer;
+                    outline: none;
+                }
+
+                input:focus {
+                    border: 1px solid #D87D4A;
+                }
+            }
+        }
+
+        .thirdP {
+            position: absolute;
+            height: 25px;
+            top: 804px;
+
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 25px;
+            letter-spacing: 0.928571px;
+            text-transform: uppercase;
+            color: $first-c;
+        }
+
+        p {
+            position: absolute;
+            height: 16px;
+            top: 845px;
+        }
+
+        // .e-moneydiv {
+        //     position: absolute;
+        //     top: 845px;
+        //     width: 309px;
+        //     height: 56px;
+        //     right: 48px;
+
+        //     input {
+        //         position: absolute;
+        //         top: 41.07%;
+        //         left: 6.8%;
+        //         accent-color: $first-c;
+        //         caret-color: $first-c;
+        //         cursor: pointer;
+        //         outline: none;
+        //     }
+
+        //     label {
+        //         position: absolute;
+        //         border: 5px solid #CFCFCF;
+        //         border-radius: 8px;
+        //         width: 309px;
+        //         height: 56px;
+        //         padding-top: 18px;
+        //         padding-left: 52px;
+        //     }
+        // }
+
+        .payment {
+            position: absolute;
+            top: 845px;
+            width: 309px;
+            height: 128px;
+            right: 48px;
+
+            input {
+                position: absolute;
+                // accent-color: $first-c;
+
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 19px;
+                letter-spacing: -0.25px;
+
+                // color: $seventh-c;
+                caret-color: $first-c;
+                cursor: pointer;
+                outline: none;
+            }
+
+            input[type="radio"] {
+                appearance: none;
+                width: 20px;
+                height: 20px;
+                border: 1px solid #CFCFCF;
+                border-radius: 50%;
+                background-clip: content-box;
+                padding: 4px;
+            }
+
+            input[type="radio"]:checked {
+                background-color: #D87D4A;
+            }
+
+            label {
+                position: absolute;
+                border: 1px solid #CFCFCF;
+                border-radius: 8px;
+                width: 309px;
+                height: 56px;
+                padding-top: 18px;
+                padding-left: 52px;
+
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 19px;
+                letter-spacing: -0.25px;
+
+                // color: $seventh-c;
+            }
+
+            label:hover {
+                border: 1px solid #D87D4A;
+            }
+
+            #e-money {
+                top: 21px;
+                left: 23px;
+            }
+
+            #e-moneyLabel {
+                border: 1px solid #D87D4A;
+            }
+
+            #cash {
+                top: 90px;
+                left: 23px;
+            }
+
+            #cashLabel {
+                top: 72px;
+            }
+        }
+
+        #PaymentBox {
+            position: absolute;
+            width: 636px;
+            height: 81px;
+            top: 997px;
+            padding-right: 48px;
+
+            .emoneyNumber {
+                position: absolute;
+                width: 309px;
+                height: 18px;
+
+                label {
+                    position: absolute;
+                    height: 16px;
+
+                    font-family: 'Manrope';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 16px;
+                    letter-spacing: -0.214286px;
+
+                    color: $seventh-c;
+                }
+
+                input {
+                    position: absolute;
+                    width: 309px;
+                    height: 56px;
+                    top: 25px;
+                    background: $sixth-c;
+                    border: 1px solid $eight-c;
+                    border-radius: 8px;
+                    font-family: 'Manrope';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 19px;
+                    letter-spacing: -0.25px;
+
+                    color: $seventh-c;
+                    padding: 24px;
+                    caret-color: $first-c;
+                    cursor: pointer;
+                    outline: none;
+                }
+
+                input:focus {
+                    border: 1px solid #D87D4A;
+                }
+
+            }
+
+            .emoneyPIn {
+                position: absolute;
+                width: 309px;
+                height: 18px;
+
+                label {
+                    position: absolute;
+                    width: 72px;
+                    height: 16px;
+                    left: 325px;
+
+                    font-family: 'Manrope';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 16px;
+                    letter-spacing: -0.214286px;
+
+                    color: $seventh-c;
+                }
+
+                input {
+                    position: absolute;
+                    width: 309px;
+                    height: 56px;
+                    top: 25px;
+                    left: 325px;
+                    background: $sixth-c;
+                    border: 1px solid $eight-c;
+                    border-radius: 8px;
+                    font-family: 'Manrope';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 19px;
+                    letter-spacing: -0.25px;
+
+                    color: $seventh-c;
+                    padding: 24px;
+                    caret-color: $first-c;
+                    cursor: pointer;
+                    outline: none;
+                }
+
+                input:focus {
+                    border: 1px solid #D87D4A;
+                }
+            }
+        }
+    }
+}
+
+.summaryBox {
+    position: absolute;
+    width: 360px;
+    height: 612px;
+    right: 0px;
+    background-color: $sixth-c;
+    padding: 32px 33px 32px 33px;
+
+    h1 {
+        position: absolute;
+        width: 99px;
+        height: 25px;
+
+        @include typography5;
+    }
+
+    .productsBox {
+        position: absolute;
+        height: 239px;
+        width: 284px;
+        top: 88px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .total {
+        position: absolute;
+        width: 284px;
+        height: 25px;
+        top: 360px;
+
+        p {
+            position: absolute;
+            width: 46px;
+            height: 25px;
+            @include typography8;
+        }
+    }
+
+    .shipping {
+        position: absolute;
+        width: 284px;
+        height: 25px;
+        top: 393px;
+
+        p {
+            position: absolute;
+            width: 67px;
+            height: 25px;
+            @include typography8;
+        }
+
+        .shipingPrice {
+            position: absolute;
+            width: 38px;
+            height: 25px;
+            right: 0px;
+
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 25px;
+
+            text-align: right;
+            text-transform: uppercase;
+
+            color: #000000;
+            opacity: 1;
+        }
+    }
+
+    .included {
+        position: absolute;
+        width: 284px;
+        height: 25px;
+        top: 426px;
+
+        p {
+            position: absolute;
+            width: 114px;
+            height: 25px;
+            @include typography8;
+        }
+    }
+
+    .grandTotal {
+        position: absolute;
+        width: 284px;
+        height: 25px;
+        top: 475px;
+
+        p {
+            position: absolute;
+            width: 100px;
+            height: 25px;
+            @include typography8;
+        }
+    }
+
+    @include button1;
+
+    button {
+        position: absolute;
+        width: 284px;
+        height: 48px;
+        top: 532px;
+    }
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+footer {
+    .footerSectionDetails {
+        height: 100%;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+.textFooter {
+    p {
+        left: 0px;
+    }
+}
+
+.copyright {
+    p {
+        left: 0px;
+    }
+}

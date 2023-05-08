@@ -1,0 +1,250 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header, main, footer {
+  padding: 0px 165px;
+  max-width: 1440px;
+}
+
+header {
+  position: relative;
+  width: 1400px;
+  height: 97px;
+  margin: auto;
+  background-color: #000000;
+}
+header .headerSectionHeadphones1Details {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+.nav-bar {
+  position: absolute;
+  width: 1109.83px;
+  height: 28px;
+  left: 165px;
+  top: 32px;
+}
+.nav-bar .audiophile-logo-container {
+  position: absolute;
+  width: 143px;
+  height: 25px;
+  left: 0px;
+  top: 3px;
+}
+.nav-bar .navigation {
+  position: absolute;
+  width: 429px;
+  left: 340px;
+}
+.nav-bar .navigation ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar .navigation ul li {
+  list-style: none;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.nav-bar .navigation ul a {
+  color: #FAFAFA;
+  text-decoration: none;
+}
+.nav-bar .navigation ul a:hover {
+  color: #D87D4A;
+}
+.nav-bar .cart-container {
+  position: absolute;
+  width: 23.33px;
+  height: 20px;
+  left: 1086.5px;
+  top: 0px;
+  cursor: pointer;
+}
+.nav-bar .bubbleProducts {
+  position: absolute;
+  width: 23.33px;
+  height: 20px;
+  left: 1115px;
+  top: -12px;
+  color: #F1F1F1;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.line-navigation {
+  position: absolute;
+  width: 1110px;
+  height: 1px;
+  left: 165px;
+  top: 96px;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.2;
+}
+
+main {
+  position: relative;
+  width: 1400px;
+  height: 550px;
+  margin: auto;
+  padding: 0px;
+  opacity: 90%;
+  mix-blend-mode: normal;
+  background-color: black;
+}
+main .loginMain {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+.MainFlex {
+  width: 1400px;
+  height: 550px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.image,
+.image1,
+.image2,
+.image3,
+.image4,
+.image5,
+.image6 {
+  width: 466.6px;
+  height: 275px;
+}
+
+.ShadowBox {
+  width: 1400px;
+  height: 550px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: inset 10px 100px 1000px rgb(0, 0, 0);
+  -moz-box-shadow: inset 10px 100px 1000px rgb(0, 0, 0);
+  -webkit-box-shadow: inset 10px 100px 1000px rgb(0, 0, 0);
+  -o-box-shadow: inset 10px 100px 1000px rgb(0, 0, 0);
+}
+
+.loginBox {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 50px;
+  left: 500px;
+}
+.loginBox .audiophile-logo-container {
+  position: absolute;
+  left: 115px;
+  top: 25px;
+  width: 150px;
+  height: 30px;
+}
+.loginBox .audiophile-logo-container img {
+  width: 180px;
+  height: 30px;
+}
+.loginBox form input {
+  position: absolute;
+  width: 309px;
+  height: 56px;
+  background: #FFFFFF;
+  border: 1px solid #CFCFCF;
+  border-radius: 8px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.25px;
+  opacity: 85%;
+  color: #000000;
+  padding: 24px;
+}
+.loginBox form label {
+  position: absolute;
+  width: 72px;
+  height: 16px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.214286px;
+  color: #000000;
+}
+.loginBox form #e-mail {
+  top: 150px;
+  left: 50px;
+}
+.loginBox form #password {
+  top: 230px;
+  left: 50px;
+}
+.loginBox button {
+  position: absolute;
+  width: 160px;
+  height: 48px;
+  background: #D87D4A;
+  border: 0;
+  color: #FFFFFF;
+  stroke: #979797;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.loginBox button:hover {
+  background-color: #FBAF85;
+  color: #FFFFFF;
+}
+.loginBox button {
+  position: absolute;
+  width: 309px;
+  height: 56px;
+  left: 50px;
+  top: 330px;
+  border: 1px solid #CFCFCF;
+  border-radius: 8px;
+}
+
+#createAccount {
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  left: 60px;
+  top: 450px;
+  color: #FFFFFF;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 16px;
+  letter-spacing: -0.214286px;
+  cursor: pointer;
+}
+
+#createAccount:hover {
+  -webkit-text-decoration: underline solid white;
+          text-decoration: underline solid white;
+}/*# sourceMappingURL=login.css.map */

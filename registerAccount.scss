@@ -1,0 +1,256 @@
+@import 'base';
+@import 'colors';
+@import 'mixinsButtons';
+@import 'mixinsTypography';
+@import 'mixins';
+
+@include headerDimensions;
+@include forHeader;
+
+header {
+    height: 97px;
+
+    .headerSectionDetails {
+        height: 100%;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+.logo {
+    position: absolute;
+    left: 483.5px;
+    top: 3px;
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+main {
+    position: relative;
+    width: 1440px;
+    height: 500px;
+    margin: auto;
+
+    .registerMainSection {
+        height: 100%;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+.linkBack {
+    position: absolute;
+    width: 57px;
+    height: 25px;
+    top: 20px;
+    left: 330px;
+
+    @include typography4;
+    color: $seventh-c;
+}
+
+.registerBox {
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    top: 60px;
+    left: 320px;
+    padding: 48px 48px 48px 48px;
+    background-color: #F2F2F2;
+
+    h1 {
+        position: absolute;
+        width: 360px;
+        height: 36px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 36px;
+
+        letter-spacing: 1.14286px;
+        text-transform: uppercase;
+
+        color: $seventh-c;
+    }
+
+    .labelnameForm {
+        position: absolute;
+        width: 33px;
+        height: 16px;
+        top: 123px;
+
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: -0.214286px;
+
+        color: #000000;
+    }
+
+    .labelnameText {
+        position: absolute;
+        width: 250px;
+        height: 46px;
+        top: 153px;
+
+        background: #FFFFFF;
+        border: 1px solid #CFCFCF;
+        border-radius: 8px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: -0.25px;
+
+        color: #000000;
+        padding: 24px;
+    }
+
+    .labelemailForm {
+        position: absolute;
+        width: 100px;
+        height: 16px;
+        top: 243px;
+
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: -0.214286px;
+
+        color: #000000;
+    }
+
+    .inputemailForm {
+        position: absolute;
+        width: 250px;
+        height: 46px;
+        top: 273px;
+
+        background: #FFFFFF;
+        border: 1px solid #CFCFCF;
+        border-radius: 8px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: -0.25px;
+
+        color: #000000;
+        padding: 24px;
+    }
+
+    .labelpasswordForm {
+        position: absolute;
+        width: 150px;
+        height: 16px;
+        left: 500px;
+        top: 123px;
+
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: -0.214286px;
+
+        color: #000000;
+    }
+
+    .inputpasswordForm {
+        position: absolute;
+        width: 250px;
+        height: 46px;
+        right: 48px;
+        top: 153px;
+
+        background: #FFFFFF;
+        border: 1px solid #CFCFCF;
+        border-radius: 8px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: -0.25px;
+
+        color: #000000;
+        padding: 24px;
+    }
+
+        .labelconfirmForm {
+            position: absolute;
+            width: 150px;
+            height: 16px;
+            top: 243px;
+            left: 500px;
+
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 16px;
+            letter-spacing: -0.214286px;
+
+            color: #000000;
+        }
+
+        .inputconfirmForm {
+            position: absolute;
+            width: 250px;
+            height: 46px;
+            top: 273px;
+            right: 48px;
+
+            background: #FFFFFF;
+            border: 1px solid #CFCFCF;
+            border-radius: 8px;
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 19px;
+            letter-spacing: -0.25px;
+
+            color: #000000;
+            padding: 24px;
+        }
+
+    @include button1;
+
+    #buttonActive {
+        background: $first-c;
+        border: 0;
+        color: $sixth-c;
+        stroke: $ninth-c;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $sixth-c;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $fifth-c;
+            color: $sixth-c;
+        }
+
+        position: absolute;
+        width: 250px;
+        height: 46px;
+        left: 275px;
+        top: 400px;
+        border: 1px solid #CFCFCF;
+        border-radius: 8px;
+    }
+}

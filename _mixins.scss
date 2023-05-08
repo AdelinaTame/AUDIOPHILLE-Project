@@ -1,0 +1,835 @@
+@mixin forHeader {
+    .nav-bar {
+        position: absolute;
+        width: 1109.83px;
+        height: 28px;
+        left: 165px;
+        top: 32px;
+
+        .audiophile-logo-container {
+            position: absolute;
+            width: 143px;
+            height: 25px;
+            left: 0px;
+            top: 3px;
+        }
+
+        .navigation {
+            position: absolute;
+            width: 429px;
+            left: 340px;
+
+
+            ul {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                li {
+                    @include typography1;
+                }
+
+                a {
+                    color: $fourth-c;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: $first-c;
+                    }
+                }
+            }
+        }
+
+        .cart-container {
+            position: absolute;
+            width: 23.33px;
+            height: 20px;
+            left: 1086.5px;
+            top: 0px;
+            cursor: pointer;
+        }
+
+        .bubbleProducts{
+            position: absolute;
+            width: 23.33px;
+            height: 20px;
+            left: 1115px;
+            top: -12px;
+            color: $third-c;
+
+            border-radius: 50%;
+            text-align: center;
+        }
+    }
+
+    .line-navigation {
+        position: absolute;
+        width: 1110px;
+        height: 1px;
+        left: 165px;
+        top: 96px;
+
+        background: $sixth-c;
+        mix-blend-mode: normal;
+        opacity: 0.2;
+    }
+}
+
+///////////////////////////////////////////////////////////////////////
+
+@mixin headerDimensions {
+    header {
+        position: relative;
+
+        width: 1440px;
+        height: 336px;
+        margin: auto;
+
+        background-color: $seventh-c;
+    }
+}
+
+/////////////////////////////////////////////////////////////
+/// 
+
+
+@mixin Box{
+    
+    .bigBox {
+        position: absolute;
+        width: 1110px;
+        height: 560px;
+        top: 160px;
+    
+        .bigBoxText {
+            position: relative;
+            width: 445px;
+            height: 343px;
+            top: 108px;
+            left: 665px;
+    
+            .bigBox-h1 {
+                position: absolute;
+                width: 445px;
+                height: 88px;
+                top: 35px;
+                left: 0px;
+    
+                @include typography7;
+            }
+    
+            .describe {
+                position: absolute;
+                width: 445px;
+                height: 100px;
+                top: 155px;
+                left: 0px;
+    
+                @include typography8;
+            }
+        }
+    }
+    
+    .bigBoxImage {
+        position: absolute;
+        width: 540px;
+        height: 560px;
+        top: 0px;
+    
+        border-radius: 8px;
+    }
+    }
+/////////////////////////////////////////////////////////////////////////
+/// 
+
+
+///////////////////////////////////////////////////////////////////////////
+
+@mixin shopContainer {
+    .shop-container {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+
+        width: 1110px;
+        height: 284px;
+        top: 120px;
+
+        .headphonesShop {
+            position: relative;
+            width: 350px;
+
+            .headphonesImg>img {
+                position: absolute;
+
+                width: 200px;
+                height: 210px; ///// am schimbat fata de figma  la imaginile din sectiunea middle toate dimensiunile pozitiilor+inaltime+latime
+                left: 80.37px;
+                top: 3px;
+            }
+
+            h1 {
+                position: absolute;
+                width: 133px;
+                height: 25px;
+                left: 108.5px;
+                top: 196px;
+
+                @include typography5;
+            }
+
+            @include button2;
+
+            .headphonesButton {
+                width: 57.32px;
+                height: 18px;
+                top: 236px;
+                left: 146px;
+            }
+
+            .arrow-icon {
+                position: absolute;
+                width: 5px;
+                height: 10px;
+                top: 240px;
+                left: 198.32px;
+            }
+        }
+
+        .speakersShop {
+            position: relative;
+            width: 350px;
+            height: 284px;
+
+            .imgSpeakers>img {
+                position: absolute;
+                height: 200px;
+                width: 210px;
+                left: 80.37px;
+                top: 3px;
+            }
+
+            h1 {
+                position: absolute;
+                width: 101px;
+                height: 25px;
+                left: 124.5px;
+                top: 196px;
+
+                @include typography5;
+            }
+
+            @include button2;
+
+            .speakersButton {
+                width: 57.32px;
+                height: 18px;
+                top: 228.5px;
+                left: 146px;
+            }
+
+            .arrow-icon {
+                position: absolute;
+                width: 5px;
+                height: 10px;
+                top: 232.5px;
+                left: 198.32px;
+            }
+        }
+
+        .earphonesShop {
+            position: relative;
+            width: 350px;
+            height: 284px;
+
+            .imgEarphones>img {
+                position: absolute;
+                height: 200px;
+                width: 220px;
+                left: 80.37px;
+                top: 3px;
+            }
+
+            h1 {
+                position: absolute;
+                width: 101px;
+                height: 25px;
+                left: 124.5px;
+                top: 196px;
+
+                @include typography5;
+            }
+
+            @include button2;
+
+            .earphonesButton {
+                width: 57.32px;
+                height: 18px;
+                top: 228.5px;
+                left: 146px;
+            }
+
+            .arrow-icon {
+                position: absolute;
+                width: 5px;
+                height: 10px;
+                top: 232.5px;
+                left: 198.32px;
+            }
+        }
+
+        .box1,
+        .box2,
+        .box3 {
+            position: absolute;
+            width: 350px;
+            height: 204px;
+            top: 80px;
+            background-color: $third-c;
+            border-radius: 8px;
+        }
+    }
+}
+
+///////////////////////////////////////////////////////////////////////
+
+@mixin bestAudioGear {
+
+    .bestAudioText {
+        position: absolute;
+        width: 445px;
+        height: 295px;
+
+        top: 2215px;
+
+        h1 {
+            position: absolute;
+            height: 88px;
+            width: 445px;
+            top: 0px;
+
+            @include typography7;
+        }
+
+        p {
+            position: absolute;
+            width: 445px;
+            height: 175px;
+            top: 120px;
+            left: 0px;
+
+            @include typography8;
+        }
+    }
+
+    .bestAudioImage {
+        position: absolute;
+        width: 540px;
+        height: 588px;
+        top: 2068px;
+        left: 735px;
+
+        border-radius: 8px;
+    }
+}
+
+/////////////////////////////////////////////////////
+
+@mixin forFooter {
+
+    .line {
+        position: absolute;
+        background-color: $first-c;
+        width: 101px;
+        height: 4px;
+        bottom: 361px;
+    }
+
+    .audiophileFooterBox {
+        position: absolute;
+        width: 1110px;
+        height: 25px;
+        top: 75px;
+
+        display: flex;
+        justify-content: space-between;
+
+        .logo {
+
+            width: 143px;
+            height: 25px;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            width: 427px;
+            height: 25px;
+
+            li {
+                list-style: none;
+
+                @include typography1;
+            }
+
+            a {
+                color: $fourth-c;
+                text-decoration: none;
+
+                &:hover {
+                    color: #D87D4A;
+                }
+            }
+        }
+    }
+
+    .textFooter {
+        position: absolute;
+
+        width: 540px;
+        height: 100px;
+        top: 136px;
+
+        @include typography4;
+    }
+
+    .copyright {
+        position: absolute;
+
+        width: 540px;
+        height: 25px;
+        top: 292px;
+
+        @include typography9;
+    }
+
+    .facebookLogo {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        top: 205px;
+        left: 1171px;
+        cursor: pointer;
+
+        &:hover {
+            background: #D87D4A;
+        }
+    }
+
+    .twiterLogo {
+        position: absolute;
+        width: 24px;
+        height: 19.5px;
+        top: 207.25px;
+        left: 1211px;
+        cursor: pointer;
+
+        &:hover {
+            background: #D87D4A;
+        }
+    }
+
+    .instagramLogo {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        top: 205px;
+        left: 1251px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $first-c;
+        }
+    }
+}
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+@mixin footerDimensions {
+    footer {
+        position: relative;
+
+        width: 1440px;
+        height: 365px;
+        margin: auto;
+
+        background: $eleventh-c;
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///                         PRODUCT PAGE
+
+
+@mixin productPage{
+    header {
+        position: relative;
+        width: 1440px;
+        height: 97px;
+        margin: auto;
+    
+        background-color: $seventh-c;
+    
+        .headerSectionHeadphones1Details {
+            height: 100%;
+            width: 100%;
+            margin: auto;
+        }
+    }
+    
+    @include forHeader;
+    
+    //////////////////////////////////////////////////////////////////////////////////////
+    
+    main {
+        position: relative;
+        width: 1440px;
+        height: 4033px;
+        margin: auto;
+    
+        .mainSectionHeadphones1Details {
+            height: 100%;
+            width: 100%;
+            margin: auto;
+        }
+    }
+    
+    //////////////////////////////////////////////////////////////////////////////////////
+    
+    .linkBack {
+        position: absolute;
+        width: 57px;
+        height: 25px;
+        top: 79px;
+        left: 165px;
+    
+        @include typography4;
+        color: $seventh-c;
+    }
+    
+    @include Box;
+    
+    .bigBoxText {
+        height: 407px;
+    }
+    
+    .price {
+        position: absolute;
+        height: 25px;
+        top: 287px;
+        left: 0px;
+    
+        @include typography5;
+    }
+    
+    @include button1;
+    
+    .addCart {
+        top: 359px;
+        left: 136.5px;
+    }
+    
+    @include button5;
+    
+    .productsNumber {
+        position: absolute;
+        width: 120px;
+        height: 48px;
+        top: 359px;
+        left: 0.5px;
+    }
+    
+    ////////////////////////////////////////////////////////////////////////////////////////
+    
+    .Features {
+        position: absolute;
+        width: 1110px;
+        height: 318px;
+        top: 880px;
+    
+        .featuresBox {
+            position: absolute;
+            width: 635px;
+            height: 318px;
+    
+            h1 {
+                position: absolute;
+                width: 445px;
+                height: 36px;
+                top: 0px;
+    
+                @include typography10;
+            }
+    
+            p {
+                position: absolute;
+                width: 635px;
+                height: 250px;
+                top: 68px;
+                left: 0px;
+    
+                @include typography8;
+            }
+        }
+    
+        .inTheBox {
+            position: absolute;
+            width: 350px;
+            height: 225px;
+            top: 0px;
+            left: 760px;
+    
+            h1 {
+                position: absolute;
+                width: 350px;
+                height: 36px;
+                top: 0px;
+    
+                @include typography10;
+            }
+    
+            .firstList {
+                position: absolute;
+                width: 15px;
+                height: 25px;
+                top: 68px;
+                left: 0px;
+                list-style: none;
+    
+                @include typography9;
+                color: $first-c;
+            }
+    
+            .secondList {
+                position: absolute;
+                height: 25px;
+                top: 68px;
+                left: 39px;
+                list-style: none;
+    
+                @include typography8;
+            }
+        }
+    }
+    
+    //////////////////////////////////////////////////////////////////////////////////////////
+    /// 
+    
+    .containerBox {
+        position: absolute;
+        top: 1358px;
+        width: 1110px;
+        height: 592px;
+    
+        .imgGallery1 {
+            position: absolute;
+            width: 445px;
+            height: 280px;
+            top: 0px;
+        }
+    
+        .imgGallery2 {
+            position: absolute;
+            width: 445px;
+            height: 280px;
+            top: 312px;
+        }
+    
+        .imgGallery3 {
+            position: absolute;
+            width: 635px;
+            height: 592px;
+            top: 0px;
+            left: 475px;
+        }
+    
+    }
+    
+    /////////////////////////////////////////////////////////////////////////////////////////////////////
+    .otherProducts {
+        position: absolute;
+        width: 1110px;
+        height: 571px;
+        top: 2110px;
+    
+        .title {
+            position: absolute;
+            height: 36px;
+            left: 396px;
+            top: 0px;
+    
+            @include typography10;
+        }
+    
+        .firstBox {
+            position: absolute;
+            width: 350px;
+            height: 471px;
+            top: 100px;
+    
+            .img1Box {
+                position: relative;
+                width: 350px;
+                height: 318px;
+                background: $third-c;
+                border-radius: 8px;
+    
+                img{
+                    position: absolute;
+                    width: 200px;
+                    height: 210px;
+                    top: 62px;
+                    left: 75px;
+                }
+            }
+    
+            h1 {
+                position: absolute;
+                height: 33px;
+                top: 358px;
+                left: 94px;
+    
+                @include typography11;
+            }
+    
+            @include button1;
+    
+            button {
+                left: 95px;
+                top: 423px;
+            }
+        }
+    
+        .secondBox {
+            position: absolute;
+            width: 350px;
+            height: 471px;
+            top: 100px;
+            left: 380px;
+    
+            .img2Box {
+                position: relative;
+                width: 350px;
+                height: 318px;
+                background: $third-c;
+                border-radius: 8px;
+    
+                img{
+                    position: absolute;
+                    width: 200px;
+                    height: 210px;
+                    top: 62px;
+                    left: 75px;
+                }
+            }
+    
+            h1 {
+                position: absolute;
+                height: 33px;
+                top: 358px;
+                left: 142px;
+    
+                @include typography11;
+            }
+    
+            @include button1;
+    
+            button {
+                left: 95px;
+                top: 423px;
+            }
+        }
+    
+        .thirdBox {
+            position: absolute;
+            width: 350px;
+            height: 471px;
+            top: 100px;
+            left: 760px;
+    
+            .img3Box {
+                position: relative;
+                width: 350px;
+                height: 318px;
+                background: $third-c;
+                border-radius: 8px;
+    
+                img{
+                    position: absolute;
+                    width: 200px;
+                    height: 210px;
+                    top: 62px;
+                    left: 75px;
+                }
+            }
+    
+            h1 {
+                position: absolute;
+                height: 33px;
+                top: 358px;
+                left: 86.5px;
+    
+                @include typography11;
+            }
+    
+            @include button1;
+    
+            button {
+                left: 95px;
+                top: 423px;
+            }
+        }
+    }
+    
+    
+    
+    
+    /////////////////////////////////////////////////////////////////////////////////////////////////////
+    
+    @include shopContainer;
+    
+    .shop-container {
+        top: 2841px;
+    }
+    
+    ////////////////////////////////////////////////////////////////////////////////////////
+    @include bestAudioGear;
+    
+    .bestAudio-container {
+        position: absolute;
+        width: 1110px;
+        height: 588px;
+        top: 3285px;
+    
+        .bestAudioText {
+            position: relative;
+            top: 146.5px;
+        }
+    }
+    
+    .bestAudioImage {
+        top: 0px;
+        left: 570px;
+    }
+    
+    
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    
+    @include footerDimensions;
+    
+    .footerSectionHeadphones1Details {
+        height: 100%;
+        width: 100%;
+        margin: auto;
+    }
+    
+    @include forFooter;
+}
+
+
+
+
+
+

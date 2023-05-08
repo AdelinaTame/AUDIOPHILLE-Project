@@ -1,0 +1,772 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header, main, footer {
+  padding: 0px 165px;
+  max-width: 1440px;
+}
+
+header {
+  position: relative;
+  background-image: url(../PROJECT/images/home/desktop/image-hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 728px;
+  width: 1440px;
+  margin: auto;
+}
+header .hero {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+header .nav-bar {
+  position: absolute;
+  width: 1109.83px;
+  height: 28px;
+  left: 165px;
+  top: 32px;
+}
+header .nav-bar .audiophile-logo-container {
+  position: absolute;
+  width: 143px;
+  height: 25px;
+  left: 0px;
+  top: 3px;
+}
+header .nav-bar .navigation {
+  position: absolute;
+  width: 429px;
+  left: 340px;
+}
+header .nav-bar .navigation ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .nav-bar .navigation ul li {
+  list-style: none;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+header .nav-bar .navigation ul a {
+  color: #FAFAFA;
+  text-decoration: none;
+}
+header .nav-bar .navigation ul a:hover {
+  color: #D87D4A;
+}
+header .nav-bar .cart-container {
+  position: absolute;
+  width: 23.33px;
+  height: 20px;
+  left: 1086.5px;
+  top: 0px;
+  cursor: pointer;
+}
+header .nav-bar .bubbleProducts {
+  position: absolute;
+  width: 23.33px;
+  height: 20px;
+  left: 1115px;
+  top: -12px;
+  color: #F1F1F1;
+  border-radius: 50%;
+  text-align: center;
+}
+header .line-navigation {
+  position: absolute;
+  width: 1110px;
+  height: 1px;
+  left: 165px;
+  top: 96px;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.2;
+}
+header .product-container {
+  position: absolute;
+  width: 398px;
+  height: 346px;
+  left: 165px;
+  top: 225px;
+}
+header .product-container .new-product {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+header .product-container .new-product-title {
+  position: absolute;
+  height: 116px;
+  left: 0%;
+  right: 0.5%;
+  top: calc(50% - 58px - 72px);
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 58px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+header .product-container .describe-new-product {
+  position: absolute;
+  top: 183px;
+  right: 49px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+header .product-container button {
+  position: absolute;
+  width: 160px;
+  height: 48px;
+  background: #D87D4A;
+  border: 0;
+  color: #FFFFFF;
+  stroke: #979797;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+header .product-container button:hover {
+  background-color: #FBAF85;
+  color: #FFFFFF;
+}
+header .product-container button {
+  top: 298px;
+  right: 238px;
+}
+
+main {
+  position: relative;
+  width: 1440px;
+  height: 2856px;
+  margin: auto;
+}
+main .middle {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+.shop-container {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 1110px;
+  height: 284px;
+  top: 120px;
+}
+.shop-container .headphonesShop {
+  position: relative;
+  width: 350px;
+}
+.shop-container .headphonesShop .headphonesImg > img {
+  position: absolute;
+  width: 200px;
+  height: 210px;
+  left: 80.37px;
+  top: 3px;
+}
+.shop-container .headphonesShop h1 {
+  position: absolute;
+  width: 133px;
+  height: 25px;
+  left: 108.5px;
+  top: 196px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 1.28571px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.shop-container .headphonesShop button {
+  position: absolute;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  border: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  cursor: pointer;
+  background-color: #F1F1F1;
+}
+.shop-container .headphonesShop button:hover {
+  color: #D87D4A;
+  background-color: #F1F1F1;
+}
+.shop-container .headphonesShop .headphonesButton {
+  width: 57.32px;
+  height: 18px;
+  top: 236px;
+  left: 146px;
+}
+.shop-container .headphonesShop .arrow-icon {
+  position: absolute;
+  width: 5px;
+  height: 10px;
+  top: 240px;
+  left: 198.32px;
+}
+.shop-container .speakersShop {
+  position: relative;
+  width: 350px;
+  height: 284px;
+}
+.shop-container .speakersShop .imgSpeakers > img {
+  position: absolute;
+  height: 200px;
+  width: 210px;
+  left: 80.37px;
+  top: 3px;
+}
+.shop-container .speakersShop h1 {
+  position: absolute;
+  width: 101px;
+  height: 25px;
+  left: 124.5px;
+  top: 196px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 1.28571px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.shop-container .speakersShop button {
+  position: absolute;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  border: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  cursor: pointer;
+  background-color: #F1F1F1;
+}
+.shop-container .speakersShop button:hover {
+  color: #D87D4A;
+  background-color: #F1F1F1;
+}
+.shop-container .speakersShop .speakersButton {
+  width: 57.32px;
+  height: 18px;
+  top: 228.5px;
+  left: 146px;
+}
+.shop-container .speakersShop .arrow-icon {
+  position: absolute;
+  width: 5px;
+  height: 10px;
+  top: 232.5px;
+  left: 198.32px;
+}
+.shop-container .earphonesShop {
+  position: relative;
+  width: 350px;
+  height: 284px;
+}
+.shop-container .earphonesShop .imgEarphones > img {
+  position: absolute;
+  height: 200px;
+  width: 220px;
+  left: 80.37px;
+  top: 3px;
+}
+.shop-container .earphonesShop h1 {
+  position: absolute;
+  width: 101px;
+  height: 25px;
+  left: 124.5px;
+  top: 196px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 1.28571px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.shop-container .earphonesShop button {
+  position: absolute;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  border: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  cursor: pointer;
+  background-color: #F1F1F1;
+}
+.shop-container .earphonesShop button:hover {
+  color: #D87D4A;
+  background-color: #F1F1F1;
+}
+.shop-container .earphonesShop .earphonesButton {
+  width: 57.32px;
+  height: 18px;
+  top: 228.5px;
+  left: 146px;
+}
+.shop-container .earphonesShop .arrow-icon {
+  position: absolute;
+  width: 5px;
+  height: 10px;
+  top: 232.5px;
+  left: 198.32px;
+}
+.shop-container .box1,
+.shop-container .box2,
+.shop-container .box3 {
+  position: absolute;
+  width: 350px;
+  height: 204px;
+  top: 80px;
+  background-color: #F1F1F1;
+  border-radius: 8px;
+}
+
+.circles {
+  position: absolute;
+  width: 944px;
+  height: 944px;
+  right: 480px;
+  top: 536px;
+  z-index: 1;
+}
+
+.mask {
+  position: absolute;
+  width: 1110px;
+  height: 48px;
+  top: 1132px;
+  z-index: 2;
+  background-color: white;
+}
+
+.speaker-1 {
+  position: relative;
+  width: 1110px;
+  height: 560px;
+  top: 572px;
+  background: #D87D4A;
+  border-radius: 8px;
+}
+.speaker-1 .speaker1Img {
+  position: absolute;
+  width: 410px;
+  height: 493px;
+  left: 117px;
+  top: 86px;
+  z-index: 2;
+}
+
+.speaker-1Box {
+  position: relative;
+  width: 349px;
+  height: 303px;
+  left: 666px;
+  top: 133px;
+}
+.speaker-1Box h1 {
+  position: absolute;
+  width: 261px;
+  height: 116px;
+  top: 0px;
+  left: 0px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 58px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.speaker-1Box p {
+  position: absolute;
+  width: 349px;
+  height: 75px;
+  top: 140px;
+  left: 0px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+.speaker-1Box button {
+  position: absolute;
+  width: 160px;
+  height: 48px;
+  background: #000000;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.speaker-1Box button:hover {
+  background-color: #CCCCCC;
+  border: none;
+}
+.speaker-1Box button {
+  top: 255px;
+  left: 0px;
+  z-index: 1;
+}
+
+.speaker-2 {
+  position: relative;
+  width: 1110px;
+  height: 320px;
+  top: 608px;
+  border-radius: 8px;
+  background-image: url(../PROJECT/images/home/desktop/image-speaker-zx7.jpg);
+  z-index: 1;
+}
+
+.speaker-2Box {
+  position: relative;
+  width: 204px;
+  height: 118px;
+  top: 101px;
+  left: 95px;
+}
+.speaker-2Box h1 {
+  position: absolute;
+  height: 38px;
+  top: 0px;
+  left: 0px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.speaker-2Box button {
+  position: absolute;
+  width: 160px;
+  height: 48px;
+  top: 70px;
+  left: 0px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 1px solid #000000;
+  color: #000000;
+  cursor: pointer;
+}
+.speaker-2Box button:hover {
+  background: #000000;
+  color: #FFFFFF;
+}
+.speaker-2Box button {
+  top: 70px;
+  left: 0px;
+}
+
+.earphonesFlex {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 1548px;
+  width: 1110px;
+  height: 320px;
+}
+.earphonesFlex .earphonesImage {
+  width: 540px;
+  height: 320px;
+  background-image: url(../PROJECT/images/home/desktop/image-earphones-yx1.jpg);
+  border-radius: 8px;
+}
+.earphonesFlex .earphonesSeeProduct {
+  position: relative;
+  width: 540px;
+  height: 320px;
+  background: #F1F1F1;
+  border-radius: 8px;
+}
+.earphonesFlex .earphonesSeeProduct .earphonesBox {
+  position: absolute;
+  width: 247px;
+  height: 118px;
+  top: 101px;
+  left: 95px;
+}
+.earphonesFlex .earphonesSeeProduct .earphonesBox h1 {
+  height: 38px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.earphonesFlex .earphonesSeeProduct .earphonesBox button {
+  position: absolute;
+  width: 160px;
+  height: 48px;
+  top: 70px;
+  left: 0px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 1px solid #000000;
+  color: #000000;
+  cursor: pointer;
+}
+.earphonesFlex .earphonesSeeProduct .earphonesBox button:hover {
+  background: #000000;
+  color: #FFFFFF;
+}
+.earphonesFlex .earphonesSeeProduct .earphonesBox button {
+  top: 70px;
+  left: 0px;
+}
+
+.bestAudioText {
+  position: absolute;
+  width: 445px;
+  height: 295px;
+  top: 2215px;
+}
+.bestAudioText h1 {
+  position: absolute;
+  height: 88px;
+  width: 445px;
+  top: 0px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 1.42857px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.bestAudioText p {
+  position: absolute;
+  width: 445px;
+  height: 175px;
+  top: 120px;
+  left: 0px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.bestAudioImage {
+  position: absolute;
+  width: 540px;
+  height: 588px;
+  top: 2068px;
+  left: 735px;
+  border-radius: 8px;
+}
+
+footer {
+  position: relative;
+  width: 1440px;
+  height: 365px;
+  margin: auto;
+  background: #101010;
+}
+
+.endOfPage {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+.line {
+  position: absolute;
+  background-color: #D87D4A;
+  width: 101px;
+  height: 4px;
+  bottom: 361px;
+}
+
+.audiophileFooterBox {
+  position: absolute;
+  width: 1110px;
+  height: 25px;
+  top: 75px;
+  display: flex;
+  justify-content: space-between;
+}
+.audiophileFooterBox .logo {
+  width: 143px;
+  height: 25px;
+}
+.audiophileFooterBox ul {
+  display: flex;
+  justify-content: space-between;
+  width: 427px;
+  height: 25px;
+}
+.audiophileFooterBox ul li {
+  list-style: none;
+  list-style: none;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.audiophileFooterBox ul a {
+  color: #FAFAFA;
+  text-decoration: none;
+}
+.audiophileFooterBox ul a:hover {
+  color: #D87D4A;
+}
+
+.textFooter {
+  position: absolute;
+  width: 540px;
+  height: 100px;
+  top: 136px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+.copyright {
+  position: absolute;
+  width: 540px;
+  height: 25px;
+  top: 292px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.facebookLogo {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 205px;
+  left: 1171px;
+  cursor: pointer;
+}
+.facebookLogo:hover {
+  background: #D87D4A;
+}
+
+.twiterLogo {
+  position: absolute;
+  width: 24px;
+  height: 19.5px;
+  top: 207.25px;
+  left: 1211px;
+  cursor: pointer;
+}
+.twiterLogo:hover {
+  background: #D87D4A;
+}
+
+.instagramLogo {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 205px;
+  left: 1251px;
+  cursor: pointer;
+}
+.instagramLogo:hover {
+  background-color: #D87D4A;
+}/*# sourceMappingURL=desktop-home.css.map */

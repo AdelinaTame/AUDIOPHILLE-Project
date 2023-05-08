@@ -1,0 +1,48 @@
+@media (max-width: 376px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  header,
+  main,
+  footer {
+    padding: 0px 24px;
+  }
+  header {
+    width: 375px;
+  }
+  header .imageLogo {
+    position: absolute;
+    left: 100px;
+    top: 25px;
+    width: 180px;
+    height: 30px;
+    background-image: url(../PROJECT/images/shared/desktop/logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  header .ShadowBox {
+    display: none;
+  }
+  main {
+    width: 375px;
+    height: 550px;
+  }
+  main .MainFlex {
+    display: none;
+  }
+  main .ShadowBox {
+    display: none;
+  }
+  main .audiophile-logo-container {
+    display: none;
+  }
+  main .loginBox {
+    width: 400px;
+    height: 400px;
+    top: -40px;
+    left: -15px;
+  }
+}/*# sourceMappingURL=mobile-login.css.map */

@@ -1,0 +1,197 @@
+@import 'base';
+@import 'colors';
+@import 'mixinsButtons';
+@import 'mixinsTypography';
+@import 'mixins';
+
+
+@include headerDimensions;
+
+.speakersHeader {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+
+@include forHeader;
+
+.speakers-title {
+    position: absolute;
+
+    width: 283px;
+    height: 44px;
+    top: 195px;
+    left: 579px;
+
+    @include typography7;
+    text-align: center;
+
+    color: $sixth-c;
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+main {
+    position: relative;
+
+    width: 1440px;
+    height: 2792px;
+    margin: auto;
+
+    .speakersMain {
+        height: 100%;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+.zx9-speakers {
+    position: absolute;
+    width: 1110px;
+    height: 560px;
+    top: 160px;
+
+
+    .zx9SpeakersText {
+        position: relative;
+        width: 445px;
+        height: 343px;
+        top: 108px;
+        left: 665px;
+
+        .subtitle {
+            position: absolute;
+            height: 19px;
+            top: 0px;
+
+            @include typography2;
+            color: $first-c;
+        }
+
+        .zx9-h1 {
+            position: absolute;
+            width: 445px;
+            height: 88px;
+            top: 35px;
+            left: 0px;
+
+            @include typography7;
+        }
+
+        .describe {
+            position: absolute;
+            width: 445px;
+            height: 100px;
+            top: 155px;
+
+            @include typography8;
+        }
+
+        @include button1;
+
+        button {
+            top: 295px;
+        }
+    }
+}
+
+.zx9SpeakersImage {
+    position: absolute;
+    width: 540px;
+    height: 560px;
+    top: 0px;
+
+    border-radius: 8px;
+}
+
+////////////////////////////////////////////////////////////////////////////////
+
+.zx7-speakers {
+    position: absolute;
+    width: 1110px;
+    height: 560px;
+    top: 880px;
+
+    .zx7SpeakersText {
+        position: relative;
+        width: 445px;
+        height: 308px;
+        top: 126px;
+
+        .zx7-h1 {
+            position: absolute;
+            width: 445px;
+            height: 88px;
+            top: 0px;
+
+            @include typography7;
+        }
+
+        .describe {
+            position: absolute;
+            width: 445px;
+            height: 100px;
+            top: 121px;
+
+            @include typography8;
+        }
+
+        @include button1;
+
+        button {
+            top: 260px;
+        }
+    }
+}
+
+.zx7SpeakersImage {
+    position: absolute;
+    width: 540px;
+    height: 560px;
+    top: 0px;
+    left: 570px;
+
+    border-radius: 8px;
+}
+
+// ///////////////////////////////////////////////////////////////////////////////////////////////////
+
+@include shopContainer;
+
+.shop-container {
+    top: 1600px;
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+
+@include bestAudioGear;
+
+.bestAudio-container {
+    position: absolute;
+    width: 1110px;
+    height: 588px;
+    top: 2044px;
+
+    .bestAudioText {
+        position: relative;
+        top: 146.5px;
+    }
+}
+
+.bestAudioImage {
+    top: 0px;
+    left: 570px;
+}
+
+/// /////////////////////////////////////////////////////////////////////////////////////////////////////
+
+@include footerDimensions;
+
+.speakersFooter {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+@include forFooter;

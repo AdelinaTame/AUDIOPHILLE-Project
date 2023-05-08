@@ -1,0 +1,129 @@
+@mixin typography1 {
+    list-style: none;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $sixth-c;
+}
+
+@mixin typography2 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: $sixth-c;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+@mixin typography3 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 58px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $sixth-c;
+}
+
+@mixin typography4 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: $sixth-c;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+}
+
+@mixin typography5 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 1.28571px;
+    text-transform: uppercase;
+    color: $seventh-c;
+}
+
+@mixin typography6 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $seventh-c;
+}
+
+@mixin typography7 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.42857px;
+    text-transform: uppercase;
+    color: $seventh-c;
+}
+
+@mixin typography8 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: $seventh-c;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+@mixin typography9 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: $sixth-c;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+@mixin typography10 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+
+    letter-spacing: 1.14286px;
+    text-transform: uppercase;
+
+    color: $seventh-c;
+}
+
+@mixin typography11 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+
+    text-align: center;
+    letter-spacing: 1.71429px;
+    text-transform: uppercase;
+
+    color: $seventh-c;
+}

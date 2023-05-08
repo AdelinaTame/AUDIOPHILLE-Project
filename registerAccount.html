@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Register Form</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <link rel="stylesheet" href="mobile-register.css" />
+    <link rel="stylesheet" href="registerAccount.css" />
+    <script src="../PROJECT/JS/registerAccount.js" type="module"></script>
+
+</head>
+
+<body>
+    <header>
+        <section class="headerSectionDetails">
+
+            <div class="nav-bar">
+                <div class="audiophile-logo-container">
+                    <img class="logo" src="../PROJECT/images/shared/desktop/logo.svg" alt="logo" />
+                </div>
+            </div>
+
+        </section>
+    </header>
+
+    <main id="registerMain">
+        <section  class="registerMainSection">
+            <a href="../PROJECT/login.html">
+                <p class="linkBack">Go back</p>
+            </a>
+
+            <div class="registerBox">
+
+                <h1>REGISTER FORM</h1>
+
+                <form id="formId">
+
+                        <label  class="labelnameForm" for="name">Name</label>
+                        <input class='labelnameText' type="text" name="nume" id="name" placeholder="Alexei Ward" required >
+
+                        <label class="labelemailForm" for="e-mail">Email Address</label>
+                        <input class='inputemailForm' type="e-mail" name="email" id="e-mail" placeholder="alexei@mail.com" required >
+
+                        <label class="labelpasswordForm" for="password">Create a password</label>
+                        <input class='inputpasswordForm' type="password" name="password" id="password" placeholder="" required  minlength="5">
+
+                        <label class="labelconfirmForm" for="confirmPassword">Confirm password</label>
+                        <input class='inputconfirmForm' type="password" name="password" id="confirmPassword" required minlength="5">
+
+                        <button id="buttonActive" type="submit">REGISTER NOW</button>
+
+                </form>
+
+            </div>
+
+        </section>
+    </main>

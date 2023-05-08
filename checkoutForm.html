@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Checkout Form</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <link rel="stylesheet" href="mobile-checkout.css" />
+    <link rel="stylesheet" href="checkoutForm.css" />
+    <script src="../PROJECT/JS/checkoutForm.js" type="module"></script>
+
+</head>
+
+<body>
+    <header id="marginSection" class="headerModifyDimension">
+        <section class="headerSectionDetails">
+
+            <div class="nav-bar">
+                <div class="audiophile-logo-container">
+                    <a href="../PROJECT/desktop-home.html"><img class="logo"
+                            src="../PROJECT/images/shared/desktop/logo.svg" alt="logo" /></a>
+                </div>
+                <div class="navigation">
+                    <nav>
+                        <ul>
+                            <li><a href="../PROJECT/desktop-home.html">HOME</a></li>
+                            <li><a href="../PROJECT/desktop-category-headphones.html">HEADPHONES</a></li>
+                            <li><a href="../PROJECT/desktop-category-speakers.html">SPEAKERS</a></li>
+                            <li><a href="../PROJECT/desktop-category-earphones.html">EARPHONES</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div id="hamburgerMenu">
+                    <div class="hambrugerLine"></div>
+                    <div class="hambrugerLine"></div>
+                    <div class="hambrugerLine"></div>
+                </div>
+
+                <div class="cart-container">
+                    <a href="#"><img class="cart" src="../PROJECT/images/shared/desktop/icon-cart.svg" alt="cart" /></a>
+                </div>
+            </div>
+
+        </section>
+    </header>
+
+    <main>
+        <section class="checkoutMainSection">
+            <a href="../PROJECT/desktop-home.html">
+                <p class="linkBack">Go back</p>
+            </a>
+
+            <div class="checkoutAndSummaryBox">
+
+                <div class="checkoutBox">
+                    <h1>CHECKOUT</h1>
+
+                    <p class="firstP">Billing Details</p>
+                    <form>
+                        <div class="nameForm">
+                            <label for="name">Name</label>
+                            <input class='nameText' type="text" name="nume" id="name" disabled />
+                        </div>
+
+                        <div class="emailForm">
+                            <label id="emailLabel" for="email">Email Address</label>
+                            <input class='email' type="email" name="email" id="email" disabled />
+                        </div>
+
+                        <div class="numberForm">
+                            <label for="number">Phone Number</label>
+                            <input class='number' type="tel" name="number" id="number" placeholder="+1 202-555-0136"
+                                required />
+                        </div>
+
+                    </form>
+
+                    <p class="secondP">SHIPPING INFO</p>
+
+                    <div class="shippingBox">
+
+                        <div class="adressForm">
+                            <label for="adress">Address</label>
+                            <input class='adress' type="adress" name="adress" id="adress"
+                                placeholder="1137 Williams Avenue" required />
+                        </div>
+
+                        <div class="zipcode">
+                            <label for="zipcode">ZIP Code</label>
+                            <input class='zipcode' type="text" name="adress" id="zipcode" placeholder="10001" />
+                        </div>
+
+                        <div class="city">
+                            <label for="city">City</label>
+                            <input class='city' type="text" name="city" id="city" placeholder="New York" required />
+                        </div>
+
+                        <div class="country">
+                            <label for="country">Country</label>
+                            <input class='country' type="text" name="country" id="country" placeholder="United States"
+                                required />
+                        </div>
+                    </div>
+
+                    <p class="thirdP">PAYMENT DETAILS</p>
+                    <p>Payment Method</p>
+
+                    <div class="payment">
+                        <form>
+                            <input type="radio" name="pay" id="e-money" value="e-money" checked />
+                            <label for="e-money" id="e-moneyLabel">e-Money</label>
+                            <input type="radio" name="pay" id="cash" value="cash" />
+                            <label for="cash" id="cashLabel">Cash on Delivery</label>
+                        </form>
+                    </div>
+
+                    <div id="PaymentBox">
+                        <div class="emoneyNumber">
+                            <label id="emoneyNumber" for="emoneyNumber">e-money Number</label>
+                            <input class='emoneyNumber' type="text" name="emoneyNumber" id="emoneyNumber"
+                                placeholder="238521993" required />
+                        </div>
+
+                        <div class="emoneyPIn">
+                            <label for="emoneyPIn">e-money PIN</label>
+                            <input class='emoneyPIn' type="text" name="emoneyPIn" id="emoneyPIn" placeholder="6891"
+                                required />
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="summaryBox">
+                    <h1>SUMMARY</h1>
+                    <div class="productsBox"></div>
+                    <div class="total">
+                        <p>TOTAL</p>
+                    </div>
+                    <div class="shipping">
+                        <p>SHIPPING</p>
+                        <p class="shipingPrice">$ 50</p>
+                    </div>
+                    <div class="included">
+                        <p>VAT (INCLUDED)</p>
+                    </div>
+                    <div class="grandTotal">
+                        <p>GRAND TOTAL</p>
+                    </div>
+                    <button class="buttonContinue">CONTINUE & PAY</button>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <section class="footerSectionDetails">
+
+            <div class="line"></div>
+
+            <div class="audiophileFooterBox">
+                <a href="../PROJECT/desktop-home.html"><img class="logo" src="../PROJECT/images/shared/desktop/logo.svg"
+                        alt="logo" /></a>
+                <ul>
+                    <li><a href="../PROJECT/desktop-home.html">HOME</a></li>
+                    <li><a href="../PROJECT/desktop-category-headphones.html">HEADPHONES</a></li>
+                    <li><a href="../PROJECT/desktop-category-speakers.html">SPEAKERS</a></li>
+                    <li><a href="../PROJECT/desktop-category-earphones.html">EARPHONES</a></li>
+                </ul>
+            </div>
+
+            <div class="textFooter">
+                <p>Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers and
+                    sound specialists who are devoted to helping you get the most out of personal audio. Come and visit
+                    our demo facility - we’re open 7 days a week.</p>
+            </div>
+            <div class="copyright">
+                <p>Copyright 2021. All Rights Reserved</p>
+            </div>
+            <a href="https://www.facebook.com/"><img class="facebookLogo"
+                    src="../PROJECT/images/shared/desktop/icon-facebook.svg" alt="facebook" /></a>
+            <a href="https://twitter.com/"><img class="twiterLogo"
+                    src="../PROJECT/images/shared/desktop/icon-twitter.svg" alt="twiter" /></a>
+            <a href="https://www.instagram.com/"><img class="instagramLogo"
+                    src="../PROJECT/images/shared/desktop/icon-instagram.svg" alt="instagram" /></a>
+
+
+        </section>
+    </footer>
+
+</body>
+
+</html>

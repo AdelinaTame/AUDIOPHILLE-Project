@@ -1,0 +1,177 @@
+@import 'base';
+@import 'colors';
+@import 'mixinsButtons';
+@import 'mixinsTypography';
+@import 'mixins';
+
+
+    header {
+        position: relative;
+        width: 1400px;
+        height: 97px;
+        margin: auto;
+    
+        background-color: $seventh-c;
+    
+        .headerSectionHeadphones1Details {
+            height: 100%;
+            width: 100%;
+            margin: auto;
+        }
+    }
+    
+    @include forHeader;
+    
+    //////////////////////////////////////////////////////////////////////////////////////////////
+    /// 
+    
+    main {
+        position: relative;
+        width: 1400px;
+        height: 550px;
+        margin: auto;
+        padding: 0px;
+        opacity: 90%;
+        mix-blend-mode: normal;
+        background-color: black;
+    
+        .loginMain {
+            height: 100%;
+            width: 100%;
+            margin: auto;
+        }
+    }
+    
+    .MainFlex {
+        width: 1400px;
+        height: 550px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .image,
+    .image1,
+    .image2,
+    .image3,
+    .image4,
+    .image5,
+    .image6 {
+        width: 466.6px;
+        height: 275px;
+    }
+    
+    .ShadowBox{
+        width: 1400px;
+        height: 550px;
+        position: absolute;
+        top:0px;
+        left: 0px;
+        box-shadow: inset  10px 100px 1000px rgba(0,0,0,1);
+        -moz-box-shadow: inset  10px 100px 1000px rgba(0,0,0,1);
+        -webkit-box-shadow: inset  10px 100px 1000px rgba(0,0,0,1);
+        -o-box-shadow: inset  10px 100px 1000px rgba(0,0,0,1);
+    }
+    
+    .loginBox{
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        top: 50px;
+        left: 500px;
+    
+        .audiophile-logo-container {
+            position: absolute;
+            left: 115px;
+            top: 25px;
+            width: 150px;
+            height: 30px;
+    
+            img{
+                width: 180px;
+                height: 30px;
+            }
+        }
+    
+        form{
+            input{
+                position: absolute;
+                width: 309px;
+                height: 56px;
+                background: #FFFFFF;
+                border: 1px solid #CFCFCF;
+                border-radius: 8px;
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 19px;
+                letter-spacing: -0.25px;
+    
+                opacity: 85%;
+                color: #000000;
+                padding: 24px;
+            }
+    
+            label{
+                position: absolute;
+                width: 72px;
+                height: 16px;
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 16px;
+                letter-spacing: -0.214286px;
+    
+                color: #000000;
+            }
+    
+            #e-mail{
+                top: 150px;
+                left: 50px;
+            }
+    
+            #password{
+                top: 230px;
+                left: 50px;
+            }
+        }
+    
+        @include button1;
+        button{
+            position: absolute;
+            width: 309px;
+            height: 56px;
+            left: 50px;
+            top: 330px;
+            border: 1px solid #CFCFCF;
+            border-radius: 8px;
+        }
+    }
+    
+    #createAccount{
+        position: absolute;
+        width: 300px;
+        height: 50px;
+        left: 60px;
+        top: 450px;
+    
+        color: #FFFFFF;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 16px;
+        letter-spacing: -0.214286px;
+        cursor: pointer;
+    }
+    
+    #createAccount:hover{
+        text-decoration: underline solid white;
+    }
+    
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+

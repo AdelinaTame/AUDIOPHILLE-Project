@@ -1,0 +1,210 @@
+@import 'colors';
+@import 'mixinsButtons';
+@import 'mixinsTypography';
+@import 'mixins';
+
+@media (max-width: 376px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    header,
+    main,
+    footer {
+        padding: 0px 24px;
+        max-width: 376px;
+    }
+
+    header {
+        width: 375px;
+        height: 90px;
+
+        .nav-bar {
+            position: absolute;
+            width: 327px;
+            height: 25px;
+            top: 32px;
+            left: 24px;
+
+            .audiophile-logo-container {
+                position: absolute;
+                width: 143px;
+                height: 25px;
+                left: 92px;
+            }
+
+            .navigation {
+                display: none;
+            }
+
+            #hamburgerMenu {
+                width: 16px;
+                height: 15px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .hambrugerLine {
+                    width: 16px;
+                    height: 3px;
+                    background-color: #FFFFFF;
+                }
+            }
+
+            .cart-container {
+                position: absolute;
+                left: 304px;
+                top: 0px;
+            }
+        }
+
+        /////////////////////////////////////////////
+        .line-navigation {
+            display: none;
+        }
+    }
+
+    main {
+        width: 375px;
+        height: 2184px;
+
+        .linkBack {
+            position: absolute;
+            top: 16px;
+            left: 24px;
+        }
+
+        .checkoutAndSummaryBox {
+            position: absolute;
+            width: 327px;
+            height: 2053px;
+            top: 65px;
+            left: 24px;
+
+            .checkoutBox {
+                // padding: 24px, 143px, 24px, 24px;
+                width: 327px;
+                height: 1378px;
+
+                h1 {
+                    width: 160px;
+                    height: 38px;
+                    font-weight: 700;
+                    font-size: 28px;
+                    line-height: 38px;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                }
+
+                .firstP {
+                    top: 94px;
+                }
+
+                .nameForm {
+                    width: 280px;
+                    top: 135px;
+
+                    input {
+                        position: absolute;
+                        width: 280px;
+                        height: 56px;
+                    }
+                }
+
+                .emailForm {
+                    width: 280px;
+                    top: 240px;
+                    left: 24px;
+
+                    input {
+                        position: absolute;
+                        width: 280px;
+                        height: 56px;
+                    }
+                }
+
+                .numberForm {
+                    width: 280px;
+                    top: 345px;
+
+                    input {
+                        position: absolute;
+                        width: 280px;
+                        height: 56px;
+                    }
+                }
+
+                .secondP {
+                    top: 458px;
+                }
+
+                .shippingBox {
+                    top: 499px;
+                    left: 23px;
+                    height: 938px;
+
+                    .adressForm {
+                        width: 280px;
+                        height: 81px;
+                        top: 0px;
+
+                        input {
+                            position: absolute;
+                            width: 280px;
+                            height: 56px;
+                        }
+                    }
+
+                    .zipcode {
+                        input {
+                            position: absolute;
+                            width: 280px;
+                            height: 56px;
+                        }
+                    }
+
+                    .city {
+                        position: absolute;
+                        width: 309px;
+                        height: 18px;
+                        top: 210px;
+                        left: 0px;
+
+                        input {
+                            position: absolute;
+                            width: 280px;
+                            height: 56px;
+                        }
+                    }
+
+                    // .country {
+                    //     top: 514px;
+
+                    //     input {
+                    //         position: absolute;
+                    //         width: 280px;
+                    //         height: 56px;
+                    //     }
+                    // }
+
+                    .thirdP {
+                        top: 927px;
+
+                    }
+                }
+            }
+        }
+
+        
+        .summaryBox {
+            position: absolute;
+            width: 327px;
+            height: 612px;
+            top: 1475px;
+            left: 24px;
+            padding: 0px;
+        }
+    }
+}

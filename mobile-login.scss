@@ -1,0 +1,64 @@
+@import 'colors';
+@import 'mixinsButtons';
+@import 'mixinsTypography';
+@import 'mixins';
+
+
+@media (max-width: 376px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    header,
+    main,
+    footer {
+        padding: 0px 24px;
+    }
+
+    header {
+        width: 375px;
+
+        .imageLogo {
+            position: absolute;
+            left: 100px;
+            top: 25px;
+            width: 180px;
+            height: 30px;
+            background-image: url(../PROJECT/images/shared/desktop/logo.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .ShadowBox {
+            display: none;
+        }
+    }
+
+    //////////////////////////////////////////////////////
+    main {
+        width: 375px;
+        height: 550px;
+
+        .MainFlex {
+            display: none;
+        }
+
+        .ShadowBox {
+            display: none;
+        }
+
+        .audiophile-logo-container {
+            display: none;
+        }
+
+        .loginBox {
+            width: 400px;
+            height: 400px;
+            top: -40px;
+            left: -15px;
+        }
+    }
+}

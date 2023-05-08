@@ -1,0 +1,159 @@
+@media (max-width: 376px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  header,
+  main,
+  footer {
+    padding: 0px 24px;
+    max-width: 376px;
+  }
+  header {
+    width: 375px;
+    height: 90px;
+  }
+  header .nav-bar {
+    position: absolute;
+    width: 327px;
+    height: 25px;
+    top: 32px;
+    left: 24px;
+  }
+  header .nav-bar .audiophile-logo-container {
+    position: absolute;
+    width: 143px;
+    height: 25px;
+    left: 92px;
+  }
+  header .nav-bar .navigation {
+    display: none;
+  }
+  header .nav-bar #hamburgerMenu {
+    width: 16px;
+    height: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  header .nav-bar #hamburgerMenu .hambrugerLine {
+    width: 16px;
+    height: 3px;
+    background-color: #FFFFFF;
+  }
+  header .nav-bar .cart-container {
+    position: absolute;
+    left: 304px;
+    top: 0px;
+  }
+  header .line-navigation {
+    display: none;
+  }
+  main {
+    width: 375px;
+    height: 2184px;
+  }
+  main .linkBack {
+    position: absolute;
+    top: 16px;
+    left: 24px;
+  }
+  main .checkoutAndSummaryBox {
+    position: absolute;
+    width: 327px;
+    height: 2053px;
+    top: 65px;
+    left: 24px;
+  }
+  main .checkoutAndSummaryBox .checkoutBox {
+    width: 327px;
+    height: 1378px;
+  }
+  main .checkoutAndSummaryBox .checkoutBox h1 {
+    width: 160px;
+    height: 38px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  main .checkoutAndSummaryBox .checkoutBox .firstP {
+    top: 94px;
+  }
+  main .checkoutAndSummaryBox .checkoutBox .nameForm {
+    width: 280px;
+    top: 135px;
+  }
+  main .checkoutAndSummaryBox .checkoutBox .nameForm input {
+    position: absolute;
+    width: 280px;
+    height: 56px;
+  }
+  main .checkoutAndSummaryBox .checkoutBox .emailForm {
+    width: 280px;
+    top: 240px;
+    left: 24px;
+  }
+  main .checkoutAndSummaryBox .checkoutBox .emailForm input {
+    position: absolute;
+    width: 280px;
+    height: 56px;
+  }
+  main .checkoutAndSummaryBox .checkoutBox .numberForm {
+    width: 280px;
+    top: 345px;
+  }
+  main .checkoutAndSummaryBox .checkoutBox .numberForm input {
+    position: absolute;
+    width: 280px;
+    height: 56px;
+  }
+  main .checkoutAndSummaryBox .checkoutBox .secondP {
+    top: 458px;
+  }
+  main .checkoutAndSummaryBox .checkoutBox .shippingBox {
+    top: 499px;
+    left: 23px;
+    height: 938px;
+  }
+  main .checkoutAndSummaryBox .checkoutBox .shippingBox .adressForm {
+    width: 280px;
+    height: 81px;
+    top: 0px;
+  }
+  main .checkoutAndSummaryBox .checkoutBox .shippingBox .adressForm input {
+    position: absolute;
+    width: 280px;
+    height: 56px;
+  }
+  main .checkoutAndSummaryBox .checkoutBox .shippingBox .zipcode input {
+    position: absolute;
+    width: 280px;
+    height: 56px;
+  }
+  main .checkoutAndSummaryBox .checkoutBox .shippingBox .city {
+    position: absolute;
+    width: 309px;
+    height: 18px;
+    top: 210px;
+    left: 0px;
+  }
+  main .checkoutAndSummaryBox .checkoutBox .shippingBox .city input {
+    position: absolute;
+    width: 280px;
+    height: 56px;
+  }
+  main .checkoutAndSummaryBox .checkoutBox .shippingBox .thirdP {
+    top: 927px;
+  }
+  main .summaryBox {
+    position: absolute;
+    width: 327px;
+    height: 612px;
+    top: 1475px;
+    left: 24px;
+    padding: 0px;
+  }
+}/*# sourceMappingURL=mobile-checkout.css.map */

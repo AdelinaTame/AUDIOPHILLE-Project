@@ -1,0 +1,329 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header, main, footer {
+  padding: 0px 165px;
+  max-width: 1440px;
+}
+
+header {
+  position: relative;
+  width: 1440px;
+  height: 336px;
+  margin: auto;
+  background-color: #000000;
+}
+
+.nav-bar {
+  position: absolute;
+  width: 1109.83px;
+  height: 28px;
+  left: 165px;
+  top: 32px;
+}
+.nav-bar .audiophile-logo-container {
+  position: absolute;
+  width: 143px;
+  height: 25px;
+  left: 0px;
+  top: 3px;
+}
+.nav-bar .navigation {
+  position: absolute;
+  width: 429px;
+  left: 340px;
+}
+.nav-bar .navigation ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar .navigation ul li {
+  list-style: none;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.nav-bar .navigation ul a {
+  color: #FAFAFA;
+  text-decoration: none;
+}
+.nav-bar .navigation ul a:hover {
+  color: #D87D4A;
+}
+.nav-bar .cart-container {
+  position: absolute;
+  width: 23.33px;
+  height: 20px;
+  left: 1086.5px;
+  top: 0px;
+  cursor: pointer;
+}
+.nav-bar .bubbleProducts {
+  position: absolute;
+  width: 23.33px;
+  height: 20px;
+  left: 1115px;
+  top: -12px;
+  color: #F1F1F1;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.line-navigation {
+  position: absolute;
+  width: 1110px;
+  height: 1px;
+  left: 165px;
+  top: 96px;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.2;
+}
+
+header {
+  height: 97px;
+}
+header .headerSectionDetails {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+.logo {
+  position: absolute;
+  left: 483.5px;
+  top: 3px;
+}
+
+main {
+  position: relative;
+  width: 1440px;
+  height: 500px;
+  margin: auto;
+}
+main .registerMainSection {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+.linkBack {
+  position: absolute;
+  width: 57px;
+  height: 25px;
+  top: 20px;
+  left: 330px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  color: #000000;
+}
+
+.registerBox {
+  position: absolute;
+  width: 800px;
+  height: 500px;
+  top: 60px;
+  left: 320px;
+  padding: 48px 48px 48px 48px;
+  background-color: #F2F2F2;
+}
+.registerBox h1 {
+  position: absolute;
+  width: 360px;
+  height: 36px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 1.14286px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.registerBox .labelnameForm {
+  position: absolute;
+  width: 33px;
+  height: 16px;
+  top: 123px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.214286px;
+  color: #000000;
+}
+.registerBox .labelnameText {
+  position: absolute;
+  width: 250px;
+  height: 46px;
+  top: 153px;
+  background: #FFFFFF;
+  border: 1px solid #CFCFCF;
+  border-radius: 8px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.25px;
+  color: #000000;
+  padding: 24px;
+}
+.registerBox .labelemailForm {
+  position: absolute;
+  width: 100px;
+  height: 16px;
+  top: 243px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.214286px;
+  color: #000000;
+}
+.registerBox .inputemailForm {
+  position: absolute;
+  width: 250px;
+  height: 46px;
+  top: 273px;
+  background: #FFFFFF;
+  border: 1px solid #CFCFCF;
+  border-radius: 8px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.25px;
+  color: #000000;
+  padding: 24px;
+}
+.registerBox .labelpasswordForm {
+  position: absolute;
+  width: 150px;
+  height: 16px;
+  left: 500px;
+  top: 123px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.214286px;
+  color: #000000;
+}
+.registerBox .inputpasswordForm {
+  position: absolute;
+  width: 250px;
+  height: 46px;
+  right: 48px;
+  top: 153px;
+  background: #FFFFFF;
+  border: 1px solid #CFCFCF;
+  border-radius: 8px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.25px;
+  color: #000000;
+  padding: 24px;
+}
+.registerBox .labelconfirmForm {
+  position: absolute;
+  width: 150px;
+  height: 16px;
+  top: 243px;
+  left: 500px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.214286px;
+  color: #000000;
+}
+.registerBox .inputconfirmForm {
+  position: absolute;
+  width: 250px;
+  height: 46px;
+  top: 273px;
+  right: 48px;
+  background: #FFFFFF;
+  border: 1px solid #CFCFCF;
+  border-radius: 8px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.25px;
+  color: #000000;
+  padding: 24px;
+}
+.registerBox button {
+  position: absolute;
+  width: 160px;
+  height: 48px;
+  background: #D87D4A;
+  border: 0;
+  color: #FFFFFF;
+  stroke: #979797;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.registerBox button:hover {
+  background-color: #FBAF85;
+  color: #FFFFFF;
+}
+.registerBox #buttonActive {
+  background: #D87D4A;
+  border: 0;
+  color: #FFFFFF;
+  stroke: #979797;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+  position: absolute;
+  width: 250px;
+  height: 46px;
+  left: 275px;
+  top: 400px;
+  border: 1px solid #CFCFCF;
+  border-radius: 8px;
+}
+.registerBox #buttonActive:hover {
+  background-color: #FBAF85;
+  color: #FFFFFF;
+}/*# sourceMappingURL=registerAccount.css.map */
